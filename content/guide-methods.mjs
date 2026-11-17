@@ -68,7 +68,7 @@ export const methods = {
   'tisortten-yag-lekesi': method(
     'Tişört ve penyede yağ lekesini yıkamadan temizleme',
     'Yıkanabilir tişört veya penyede önce fazla yağı kâğıt havluyla alın. Lekeye doğrudan sürülebilen sıvı çamaşır deterjanını tişörtün iç yüzünde deneyin. Renk ve doku değişmezse lekeye uygulayın ve tişörtü bakım etiketine göre yıkayın.',
-    [towel, laundry], [liquidWash],
+    [towel, laundry], [liquidWash, 'Alternatif olarak elde bulaşık deterjanı'],
     [
       ['Fazla yağı kâğıt havluyla alın', 'Kâğıt havluyu lekeye hafifçe bastırıp kaldırın. Kumaşı ovalamadan fazla yağı alın.'],
       ['Deterjanı görünmeyen bir yerde deneyin', 'Tişört evde yıkanabiliyorsa bir miktar bulaşık deterjanı ya da kumaşın rengine uygun sıvı çamaşır deterjanını tişörtün görünmeyen bir noktasında test edin.'],
@@ -81,7 +81,7 @@ export const methods = {
   'beyaz-kiyafetten-yag-lekesi': method(
     'Beyaz pamukluda toz çamaşır deterjanı ve su',
     'Evde yıkanabilen beyaz pamuklu giyside fazla yağı kâğıt havluyla alın. Az miktarda toz çamaşır deterjanını suyla karıştırıp görünmeyen bir yerde deneyin. İnce bir kat hâlinde lekeye sürün ve bakım etiketine göre yıkayın.',
-    [towel, laundry], ['Toz çamaşır deterjanı', water],
+    [towel, 'Küçük kap', laundry], ['Toz çamaşır deterjanı', water],
     [
       ['Bakım etiketine bakın', 'Bu yöntemi evde yıkanabilen beyaz pamuklu giysilerde uygulayın. Yıkama sıcaklığını etiketten kontrol edin.'],
       ['Fazla yağı kâğıt havluyla alın', 'Havluyu lekeye hafifçe bastırıp kaldırın. Kumaşı ovalamayın.'],
@@ -94,7 +94,7 @@ export const methods = {
   'elbiseden-yag-lekesi': method(
     'Yıkanabilir elbise ve astarda sıvı deterjan',
     'Elbise, bluz veya eteğin kumaşı ve astarı yıkanabiliyorsa yağı kâğıt havluyla alın. Ürün talimatı izin veriyorsa az miktarda sıvı çamaşır deterjanını kumaşın görünmeyen bir yerinde deneyip lekeye sürün. Kuru temizlemelik veya hassas süslemeli elbiseyi temizlemeciye gösterin.',
-    [towel, laundry], [liquidWash],
+    [towel, laundry], [wash, 'Ön işlem için elde bulaşık deterjanı veya kumaşa uygun leke çıkarıcı'],
     [
       ['Dış kumaşı ve astarı kontrol edin', 'Dış kumaş veya astar yalnızca kuru temizlemeye uygunsa lekeye evde su ya da deterjan sürmeyin.'],
       ['Astarı koruyun', 'Lekenin diğer katlara sızmamaması için lekenin arkasına bir parça kâğıt havlu koyun ve üstteki yağı da yine bir kağıt havlu ile tamponlayın.'],
@@ -107,7 +107,7 @@ export const methods = {
   'monttan-yag-lekesi': method(
     'Montun dış kumaşına göre yağ lekesini temizleme',
     'Monttaki fazla yağı kâğıt havluyla alın. Kaplamasız ve evde yıkanabilen dış kumaşta yeni yağın fazlasını kuru mısır nişastasıyla alabilirsiniz. Kalan izde montun kumaşına uygun temizleyiciyi seçin.',
-    [towel, 'Yumuşak bez', laundry], ['İsteğe bağlı mısır nişastası', 'Kaplamasız pamuklu mont için elde bulaşık deterjanı', 'Su geçirmez mont için üreticinin önerdiği temizleyici'],
+    [towel, 'Yumuşak bez', laundry], ['Kaplamasız kumaşta isteğe bağlı mısır nişastası veya bebek pudrası', 'Kaplamasız pamuklu mont için elde bulaşık deterjanı', 'Montun bakım etiketinde önerilen temizleyici', water],
     [
       ['Bakım etiketine bakın', 'Montun evde yıkanıp yıkanamayacağını kontrol edin. Su geçirmez montta üreticinin talimatını, dolgulu montta şişme mont rehberini izleyin.'],
       ['Fazla yağı kâğıt havluyla alın', 'Kâğıt havluyu lekeye hafifçe bastırıp kaldırın. Kaplamasız, evde yıkanabilen kumaşta yeni leke hâlâ yağlıysa ince bir kat kuru mısır nişastası veya bebek pudrası serpin. Yağı emen tozu nazikçe alın.'],
@@ -120,7 +120,7 @@ export const methods = {
   'sisme-monttan-yag-lekesi': method(
     'Şişme montta dış kumaştaki yağ lekesini temizleme',
     'Şişme monttaki fazla yağı kâğıt havluyla alın. Küçük izlerde montun bakım talimatı izin veriyorsa dış kumaşı temizleyin ve dolguyu ıslatmayın. Montun tamamı yıkanacaksa dolguya uygun temizleyici ve kurutma ayarı kullanın.',
-    [towel, 'Temiz, yumuşak bez'], ['Montun bakım talimatına uygun temizleyici', 'Uygun dış kumaşta isteğe bağlı mısır nişastası'],
+    [towel, 'Temiz, yumuşak bez', laundry], ['Montun bakım talimatına uygun temizleyici', 'Uygun dış kumaşta isteğe bağlı mısır nişastası', water],
     [
       ['Dolgu türünü ve bakım etiketini kontrol edin', 'Dolgunun kuş tüyü mü sentetik mi olduğuna bakın. Montun evde nasıl temizlenip kurutulacağını etiketten kontrol edin.'],
       ['Dış kumaştaki fazla yağı alın', 'Kâğıt havluyu lekeye hafifçe bastırıp kaldırın. Yeni ve küçük bir lekede, kaplamasız dış kumaşın bakım talimatı kuru tozla temizliğe izin veriyorsa ince bir kat mısır nişastası serpin. Yağı emen tozu nazikçe alın.'],
@@ -159,7 +159,7 @@ export const methods = {
   'koltuktan-yag-lekesi': method(
     'Kumaş koltukta fazla yağı alma ve hafif deterjanlı su',
     'Kumaş koltuğa yağ döküldüğünde fazlasını kuru beyaz bezle alın. Üretici hafif deterjanlı suya izin veriyorsa 240 ml ılık suya çeyrek çay kaşığı sıvı elde bulaşık deterjanı ekleyin. Karışımı bezle lekeye uygulayın ve kalıntıyı temiz, nemli bir bezle alın.',
-    ['Temiz beyaz bezler', 'Küçük kap', 'Ölçü kaşığı'], [dish, '240 ml ılık su', 'Kalıntıyı almak için temiz su'],
+    ['Temiz beyaz bezler', 'Ölçü kabı', 'Çay kaşığı ölçüsü'], ['Renksiz, ağartıcısız sıvı elde bulaşık deterjanı', '240 ml ılık su', 'Kalıntıyı almak için temiz su'],
     [
       ['Fazla yağı alın ve bakım etiketine bakın', 'Kuru beyaz bezi lekeye hafifçe bastırıp kaldırın. Kumaşı ovalamayın. Minderin altındaki etikette veya koltuğun bakım kılavuzunda deterjanlı suya izin verilip verilmediğine bakın.'],
       ['Karışımı hazırlayıp görünmeyen bir yerde deneyin', 'Bakım talimatı izin veriyorsa 240 ml ılık suya çeyrek çay kaşığı renksiz, ağartıcısız sıvı elde bulaşık deterjanı ekleyin. Karışımı minderin arka alt köşesinde deneyip kurumasını bekleyin.'],
@@ -172,7 +172,7 @@ export const methods = {
   'deri-koltuktan-yag-lekesi': method(
     'Deri koltukta fazla yağı kuru bez veya uygun emiciyle alma',
     'Deri koltuktaki fazla yağı kuru beyaz bezle ovalamadan alın. Koltuğun bakım kılavuzu öneriyorsa yüzeyde kalan yağı emmesi için az miktarda kuru mısır nişastası kullanabilirsiniz. Yağ deriye işlemişse deri bakım uzmanına danışın.',
-    ['Temiz, kuru beyaz bezler'], ['Bakım kılavuzu öneriyorsa mısır nişastası veya deriye uygun temizleyici'],
+    ['Temiz, kuru beyaz bezler'], ['Bakım kılavuzu öneriyorsa mısır nişastası veya deriye uygun temizleyici', 'Yalnızca bakım kılavuzu özellikle öneriyorsa karbonat'],
     [
       ['Koltuk modelinin bakım talimatına bakın', 'Minderin altındaki etiketten veya faturadan koltuğun modelini bulun. Üreticinin yağ lekesi için verdiği talimatı kontrol edin. Leke yeniyse fazla yağı hemen kuru bezle alın.'],
       ['Fazla yağı kuru bezle alın', 'Kuru beyaz bezi lekeye hafifçe bastırıp kaldırın. Deriyi ovalamayın veya yağ izini kazımayın.'],
@@ -185,7 +185,7 @@ export const methods = {
   'tul-perdeden-yag-lekesi': method(
     'Tül perdede fazla yağı alma ve etikete göre yıkama',
     'Tül perdeye yağ sıçradıysa lekenin altına kâğıt havlu koyup fazla yağı üstten hafifçe bastırarak alın. Evde yıkanabilen tülde, lekeye sürülebilen sıvı çamaşır deterjanını veya çamaşıra uygun seyreltilmiş sıvı Arap sabununu alt kenarda deneyin. Ardından durulayıp perdeyi etiketine göre yıkayın.',
-    [towel, 'Makineye uygunsa yıkama filesi'], ['Lekeye sürülebilen hassas çamaşır deterjanı', 'Alternatif olarak çamaşıra uygun sıvı Arap sabunu', water],
+    [towel, 'Arap sabununu suyla karıştırmak için küçük kap', 'Makineye uygunsa yıkama filesi', laundry], ['Lekeye sürülebilen hassas çamaşır deterjanı', 'Alternatif olarak çamaşıra uygun sıvı Arap sabunu', water],
     [
       ['Bakım etiketine bakın, kancaları çıkarın', 'Perdenin evde yıkanıp yıkanamayacağını ve yıkama sıcaklığını etiketten kontrol edin. Çıkarılabilen kancaları sökün.'],
       ['Fazla yağı kâğıt havluyla alın', 'Tülü düz bir yere serip lekenin altına kâğıt havlu koyun. Üstten başka bir havluyla hafifçe bastırıp kaldırın. Tülü ovalamayın.'],
@@ -198,24 +198,24 @@ export const methods = {
   'duvardan-yag-lekesi': method(
     'Duvardaki yağ lekesi için bulaşık deterjanı ve karbonat',
     'Silinebilir duvardaki yağ lekesini ılık su ve birkaç damla elde bulaşık deterjanıyla temizleyin. Kurumuş yağ kalırsa silmeye ve ovalamaya dayanıklı boyada karbonatla suyu karıştırıp macun yapın. Önce görünmeyen bir yerde deneyin, sonra lekeye bastırmadan uygulayın.',
-    ['Küçük kap', 'Yumuşak bezler', 'Kâğıt havlu'], [dish, 'Ilık su', 'Karbonat (boya ovalamaya dayanıklıysa)'],
+    ['Küçük kap', 'Yumuşak bezler', 'Kâğıt havlu', 'Karbonatı ölçmek için çay kaşığı'], [dish, 'Ilık su', 'Karbonat (boya ovalamaya dayanıklıysa)'],
     [
-      ['Yeni sıçrayan yağı alın', 'Yağ hâlâ ıslaksa üzerine kâğıt havlu veya temiz bir bez bastırıp kaldırın. Leke kurumuşsa doğrudan ikinci adıma geçin.'],
-      ['Yapışan yağı bulaşık deterjanıyla yumuşatın', 'Bir kâse ılık suya birkaç damla elde bulaşık deterjanı ekleyin. Silinebilir duvarda yumuşak bezi bu suyla nemlendirip iyice sıkın. Bezi lekenin üzerinde kısa süre tutun, sonra lekeyi kenardan ortaya doğru silin.'],
-      ['Kurumuş yağ kaldıysa karbonatlı macun deneyin', 'Bir çay kaşığı karbonata azar azar su ekleyip macun yapın. Boya ovalamaya dayanıklıysa önce görünmeyen bir noktada deneyin. Renk ve parlaklık değişmezse yumuşak beze biraz macun alın ve yağ izinin üzerinden bastırmadan geçin.'],
+      ['Yeni sıçrayan yağı alın', 'Yağ kurumadıysa üzerine kâğıt havlu veya temiz bir bez bastırıp fazla yağı alın. Leke kurumuşsa doğrudan ikinci adıma geçin.'],
+      ['Yapışan yağı bulaşık deterjanıyla yumuşatın', 'Bir kâse ılık suya birkaç damla elde bulaşık deterjanı ekleyin. Silinebilir duvarda yumuşak bir bezi bu suya batırıp iyice sıkın. Bezi lekenin üzerinde kısa süre tutun, sonra lekeyi kenardan ortaya doğru silin.'],
+      ['Kurumuş yağ kaldıysa karbonatlı macun deneyin', 'Bir çay kaşığı karbonata azar azar su ekleyip macun yapın. Boya ovalamaya dayanıklıysa yumuşak bir beze biraz macun alın ve yağ izinin üzerinden bastırmadan geçin.'],
       ['Kalıntıyı alın, duvar kuruyunca izi kontrol edin', 'Temiz suyla hafifçe nemlendirilmiş bir bezle deterjanı veya karbonatı alın. Duvar kuruduğunda yağlı tabaka gitmiş ama koyu bir gölge kalmışsa yağ boyaya işlemiş olabilir. O noktada temizliği bırakın.']
     ],
     'Yağ deterjanla çıktıysa karbonat adımını atlayın.',
-    'Mat veya silinemeyen boyada karbonat kullanmayın. Ovalamak parlak bir iz bırakabilir. Beze boya geçerse temizliği bırakın.'
+    'Karbonatlı macunu yalnızca ovalamaya dayanıklı boyada deneyin. Önce görünmeyen bir noktaya uygulayın. Mat veya silinemeyen boyada karbonat iz bırakabilir. Beze boya geçerse temizliği bırakın.'
   ),
   'fayanstan-yag-lekesi': method(
     'Kurumuş fayans yağını ılık bezle yumuşatma',
     'Kurumuş yağ lekesini, silinebilir seramik veya porselen fayansta ılık deterjanlı bezle yumuşatın. Yumuşak süngerle silin, temiz suyla kalıntıyı alın ve kurulayın. Yağ derzde kaldıysa derzin bakım talimatına göre ilerleyin.',
-    ['Yumuşak bez veya sünger', 'Küçük kap', 'Derz için yumuşak diş fırçası'], [dish, 'Ilık su', 'Derz üreticisi izin veriyorsa karbonat'],
+    ['Yumuşak bez', 'Bulaşık süngeri', 'Küçük kap', 'Derz için yumuşak diş fırçası'], [dish, 'Ilık su', 'Derz üreticisi izin veriyorsa karbonat'],
     [
-      ['Fayansın malzemesine bakın', 'Bu adımlar, hafif deterjanlı suyla temizlenebilen seramik veya porselen içindir. Mermer ve diğer doğal taşlar için kendi bakım talimatını izleyin.'],
-      ['Kurumuş yağı ılık bezle yumuşatın', 'Ilık suya birkaç damla elde bulaşık deterjanı ekleyin. Yumuşak bezi sıkıp görünmeyen bir yerde deneyin. Kurumuş yağın üzerinde birkaç dakika tutun.'],
-      ['Yağı yumuşak süngerle silin', 'Süngerin yumuşak yüzüyle yağı alın. Temiz, nemli bezle deterjan kalıntısını silin. Yer fayansıysa kayganlık kalmaması için kurulayın.'],
+      ['Fayansın malzemesine bakın', 'Bu adımlar, hafif deterjanlı suyla temizlenebilen seramik veya porselen içindir. Mermer ve diğer doğal taşlar için kendi özel bakım talimatını izleyin.'],
+      ['Kurumuş yağı ılık bezle yumuşatın', 'Ilık suya birkaç damla elde bulaşık deterjanı ekleyin. Bu suyla nemlendirdiğiniz bezi kurumuş yağın üzerinde birkaç dakika tutun.'],
+      ['Yağı bulaşık süngeriyle silin', 'Bulaşık süngerinin yumuşak tarafını aynı deterjanlı suyla nemlendirip yağı alın. Yağ hâlâ yapışıyorsa ılık bezi lekenin üzerinde biraz daha bekletin. Temiz, nemli bezle deterjan kalıntısını silin. Yer fayansıysa kayganlık kalmaması için kurulayın.'],
       ['Derzde kalan izi hafifçe temizleyin', 'Derz üreticisi izin veriyorsa biraz karbonatı suyla karıştırın. Küçük bir noktada deneyip karışımı yalnızca derz çizgisine yumuşak diş fırçasıyla uygulayın. Ardından suyla kalıntıyı alıp kurulayın.']
     ],
     'Yağ derze geçmediyse dördüncü adımı atlayabilirsiniz.',
@@ -224,12 +224,12 @@ export const methods = {
   'mutfak-dolabindan-yag-lekesi': method(
     'Dolap kapağındaki yağı az nemli bezle alma',
     'Silinmeye uygun mutfak dolabındaki yağ lekesi için ılık suya birkaç damla elde bulaşık deterjanı ekleyin. Bezi iyice sıkıp kapağı nazikçe silin. Deterjan kalıntısını alın ve kapağın kenarlarını hemen kurulayın.',
-    ['Küçük kap', 'Yumuşak bezler'], [dish, 'Ilık su'],
+    ['Küçük kap', 'Yumuşak bezler'], [dish, 'Ilık su', 'Kaplama üreticisi izin veriyorsa karbonat'],
     [
-      ['Kapağın bakım talimatına bakın', 'Suya izin verildiğini kontrol edin. Kaplama konusunda emin değilseniz önce kapağın iç köşesinde küçük bir deneme yapın.'],
-      ['Deterjanlı suyu beze alın', 'Ilık suya birkaç damla elde bulaşık deterjanı karıştırın. Yumuşak bezi batırıp iyice sıkın. Karışımı doğrudan kapağa dökmeyin.'],
-      ['Kulp çevresindeki yağı silin', 'Az nemli bezle küçük alanlar hâlinde çalışın. Yapışkan iz kaldıysa bezi temizleyip aynı yeri bir kez daha silin.'],
-      ['Kalıntıyı alın ve kapağı hemen kurulayın', 'Temiz, hafif nemli bezle deterjan kalıntısını alın. Kuru bezle kapağı, kenarları ve birleşim yerlerini kurulayın.']
+      ['Kapağın bakım talimatına bakın', 'Dolap kapağının suyla silmeye uygun olup olmadığını kontrol edin. Kaplama konusunda emin değilseniz önce kapağın iç köşesinde küçük bir deneme yapın.'],
+      ['Deterjanlı suyu beze alın', 'Ilık suya birkaç damla elde bulaşık deterjanı ekleyin. Yumuşak bezi batırıp iyice sıkın. Karışımı doğrudan kapağa dökmeyin.'],
+      ['Kulp çevresindeki yağı silin', 'Az nemli bezle küçük alanlar hâlinde çalışın. İz kalırsa ve kaplama üreticisi karbonata izin veriyorsa az miktarda karbonatı suyla karıştırın. Önce iç köşede deneyip kalan ize ovalamadan uygulayın.'],
+      ['Kalıntıyı alın ve kapağı hemen kurulayın', 'Temiz, hafif nemli bezle deterjan veya karbonat kalıntısını alın. Kuru bezle kapağı, kenarları ve birleşim yerlerini kurulayın.']
     ],
     'Yağı yeniden yüzeye taşımamak için bez yağlandıkça temiz bir yüzünü kullanın.',
     'Sert sünger veya karbonatla ovalamak kaplamayı matlaştırabilir. Kapağın kenarlarına su biriktirmeyin.'
@@ -237,12 +237,12 @@ export const methods = {
   'cam-ocaktan-yag-lekesi': method(
     'Soğuk cam ocaktaki yağı yumuşak bezle alma',
     'Cam ocak tamamen soğuduğunda fazla yağı kâğıt havluyla alın. Modelin kılavuzu izin veriyorsa kalan yağ izini ılık suya birkaç damla elde bulaşık deterjanı ekleyip yumuşak bezle silin. Temiz, nemli bezle kalıntıyı alın ve kurulayın.',
-    [towel, 'İki yumuşak bez'], ['Ilık su', 'Kılavuz izin veriyorsa sıvı elde bulaşık deterjanı'],
+    [towel, 'İki yumuşak bez', 'Modelin kılavuzu izin veriyorsa cam ocak kazıyıcısı'], ['Ilık su', 'Kılavuz izin veriyorsa sıvı elde bulaşık deterjanı veya cam seramik ocak temizleyicisi'],
     [
       ['Ocağı kapatıp tamamen soğutun', 'Artık ısı göstergesi sönüp cam soğuduğunda yağın fazlasını kâğıt havluyla alın.'],
-      ['Kalan izi ılık, nemli bezle silin', 'Yumuşak bezi ılık suyla nemlendirip sıkın. Modelin bakım kılavuzu izin veriyorsa suya birkaç damla elde bulaşık deterjanı ekleyin.'],
-      ['Yapışan izi nazikçe yumuşatın', 'Nemli bezi lekenin üzerinde kısa süre tutun, sonra hafifçe silin. Yanıp yapışmış kalıntı çıkmazsa modelin cam ocak için tarif ettiği yönteme geçin.'],
-      ['Kalıntıyı alın ve camı kurulayın', 'Temiz suyla nemlendirilmiş ayrı bir bezle deterjanı giderin. Ocağı yeniden açmadan önce camı yumuşak bezle kurulayın.']
+      ['Kalan izi ılık, nemli bezle silin', 'Yumuşak bezi ılık suyla nemlendirip sıkın. İz kalırsa ve ocak kılavuzu izin veriyorsa suya birkaç damla elde bulaşık deterjanı ekleyin veya cam seramik ocak için etiketlenmiş bir yağ temizleyici kullanın.'],
+      ['Yapışan izi nazikçe yumuşatın', 'Nemli bezi lekenin üzerinde kısa süre tutun, sonra hafifçe silin. Yanıp yapışmış kalıntı çıkmazsa ve modelin kılavuzu öneriyorsa cam ocağa özel kazıyıcı kullanın. Kazıyıcıyı kılavuzdaki açıya göre, cama bastırmadan kaydırın.'],
+      ['Kalıntıyı alın ve camı kurulayın', 'Temiz suyla nemlendirilmiş ayrı bir bezle temizleyici kalıntısını alın. Ocağı yeniden açmadan önce camı yumuşak bezle kurulayın.']
     ],
     'Kılavuzu bulmak için ocağın model numarasıyla üreticinin destek sayfasında arama yapabilirsiniz.',
     'Cam ocakta çelik tel, sert sünger, kuru karbonat veya fırın spreyi kullanmayın.'
@@ -250,15 +250,15 @@ export const methods = {
   'firindan-yag-lekesi': method(
     'Soğuk fırında deterjanlı su ve uygun yüzeyde karbonat',
     'Fırın tamamen soğuduğunda yağlı rafları ılık su ve bulaşık deterjanıyla temizleyin. Fırının içindeki yapışmış izde, modelin bakım talimatı izin veriyorsa karbonat ve suyla hazırlanan macunu kullanabilirsiniz.',
-    ['Küçük kap', 'Yumuşak sünger', 'Temiz bez'], [dish, 'Ilık su', 'İç kaplama için izin veriliyorsa karbonat'],
+    [towel, 'Raflar için leğen', 'Küçük kap', 'Yumuşak sünger', 'Temiz bez', 'Kılavuz izin veriyorsa esnek silikon spatula'], [dish, 'Ilık su', 'İç kaplama için izin veriliyorsa karbonat'],
     [
       ['Fırını kapatın ve soğumasını bekleyin', 'Fırın soğuyunca çıkarılabilen rafları alın. Yüzeydeki fazla yağı kâğıt havluyla kaldırın.'],
       ['Rafları deterjanlı suda bekletin', 'Raflar elde yıkanabiliyorsa bir leğene ılık su ve biraz elde bulaşık deterjanı koyun. Yağ yumuşayınca süngerle silip durulayın.'],
-      ['İç kaplamada uygun yöntemi kullanın', 'Kılavuz karbonata izin veriyorsa bir miktar karbonata azar azar su ekleyip macun yapın. Sadece lekeli yere ince bir kat sürün. Yağ yumuşayınca nemli, yumuşak bezle alın.'],
+      ['İç kaplamada uygun yöntemi kullanın', 'Kılavuz karbonata izin veriyorsa bir miktar karbonata azar azar su ekleyip macun yapın. Sadece lekeli yere ince bir kat sürün. Yağ yumuşayınca nemli, yumuşak bezle alın. Parça kalırsa ve kılavuz izin veriyorsa esnek silikon spatulayla hafifçe kaldırın.'],
       ['Kalıntıyı temiz suyla alın ve kurulayın', 'Temiz, nemli bezle karbonat veya deterjan kalıntısını giderin. İç yüzeyi kurulayın ve kuruyan rafları yerlerine takın.']
     ],
     'Katalitik kaplamada veya temizleme programı olan fırınlarda önce modelin kılavuzunda iç yüzey için verilen adımları izleyin.',
-    'Macunu rezistansa, fana, havalandırma deliklerine veya kapak contasına sürmeyin. Temizlik sırasında fırını çalıştırmayın.'
+    'Macunu rezistansa, fana, havalandırma deliklerine veya kapak contasına sürmeyin. Fırın camında sert sünger veya metal kazıyıcı kullanmayın. Temizlik sırasında fırını çalıştırmayın.'
   ),
   'tavadan-yag-lekesi': method(
     'Tava ve tencerede ılık deterjanlı suyla yağı yumuşatma',
@@ -289,7 +289,7 @@ export const methods = {
   'suetten-yag-lekesi': method(
     'Süette kuru nişasta uygulaması',
     'Süet ayakkabıdaki taze yağı kuru beyaz bezle hafifçe alın. Üretici kuru temizleme tozuna izin veriyorsa önce görünmeyen yerde deneyin. Yağ liflere işlemişse süet temizliği yapan bir uzmana danışın.',
-    [towel, 'Yumuşak süet fırçası'], ['Mısır nişastası'],
+    [towel, 'Temiz, kuru beyaz bez', 'Yumuşak süet fırçası'], ['Mısır nişastası'],
     [
       ['Sıvıyı bastırıp kaldırarak alın', 'Kâğıt havluyu süete sürtmeden kaldırın.'],
       ['Kuru uygulamaya izin olup olmadığına bakın', 'Ayakkabınızın kılavuzunu okuyun. Nişastayı önce küçük ve görünmeyen bir noktada deneyin.'],
@@ -302,12 +302,12 @@ export const methods = {
   'ipekten-yag-lekesi': method(
     'Yıkanabilir ipekte hafif sıvı ipek deterjanı',
     'İpekten fazla yağı kuru, yumuşak bezle hafifçe alın. Etikette kuru temizleme yazıyorsa lekeyi temizlemeciye gösterin. Yıkamaya izin varsa ipeğe uygun deterjan ve etiketteki yöntemi kullanın.',
-    ['Yumuşak emici bez', 'Temiz leğen', 'Havlu'], ['İpeğe uygun hafif sıvı deterjan', 'Etikete uygun sıcaklıkta su'],
+    ['Yumuşak emici bez', 'Temiz leğen'], ['İpeğe uygun hafif sıvı deterjan', 'Etikete uygun sıcaklıkta su'],
     [
       ['İpek etiketini okuyun', 'Kuru temizleme talimatında lekeyi ve önceki uygulamaları temizlemeciye anlatın.'],
       ['Yağ yüzeydeyse nazikçe alın', 'Emici bezi lekeye bastırıp kaldırın.'],
-      ['Yalnızca izin varsa elde yıkayın', 'İpek deterjanını kendi dozuyla suda çözün. Etiketin tarif ettiği biçimde yıkayıp durulayın.'],
-      ['Sıkmadan kurutun', 'Havluyla fazla nemi alın. Etikete göre kurutun ve kumaşta renk halkası olup olmadığını kontrol edin.']
+      ['Yalnızca izin varsa elde yıkayın', 'İpek deterjanını etikette belirtilen sıcaklıktaki suya ekleyin. Üretici bekletmeye izin veriyorsa ipeği kısa süre suda tutun. Etiketin tarif ettiği biçimde yıkayıp durulayın.'],
+      ['Sıkmadan kurutun', 'Etikete göre kurutun ve kumaşta renk halkası olup olmadığını kontrol edin.']
     ],
     'İz sürerse daha yoğun deterjan sürmek yerine ipek bakımına danışın.',
     'İpeğe genel amaçlı enzimli sprey veya oksijenli toz uygulamayın.'
@@ -315,12 +315,12 @@ export const methods = {
   'yun-kazaktan-yag-lekesi': method(
     'Yıkanabilir yünde nötr yün deterjanı',
     'Yün kazaktaki fazla yağı kuru bezle, kumaşı ovalamadan alın. Bakım etiketi yıkamaya izin veriyorsa yün deterjanıyla yıkayın. İz kalırsa yün bakımına uygun profesyonel yardım alın.',
-    ['Emici bez', 'Düz kurutma için havlu', 'Etikete göre leğen veya yün programlı makine'], ['Nötr yün deterjanı', 'Etikete uygun su'],
+    ['Temiz emici bez', 'Düz kurutma için havlu', 'Etikete göre leğen veya yün programlı makine'], ['Yüne uygun nötr deterjan', 'Etikete uygun su', 'Giysi üreticisi özellikle öneriyorsa sıvı elde bulaşık deterjanı'],
     [
-      ['Kazağın yıkama işaretini kontrol edin', 'Makinede yıkamaya izin, elde yıkama ve kuru temizleme talimatlarını birbirinden ayırın.'],
-      ['Yağı lifleri zorlamadan alın', 'Bezi hafifçe bastırın. Kazağı gerip sürtmeyin.'],
-      ['Yün deterjanıyla bakım etiketini izleyin', 'Ürünün dozunu kullanın. Elde yıkama varsa ıslak yünü ovuşturmayın veya burarak sıkmayın.'],
-      ['Şeklini verip düz kurutun', 'Etiket izin veriyorsa temiz havlu üstünde düz kurutun. Leke kalırsa yün bakım uzmanına danışın.']
+      ['Kazağın yıkama işaretini kontrol edin', 'Etiketten elde veya makinede yıkamaya izin verilip verilmediğine bakın. Yalnızca kuru temizleme yazıyorsa lekeye evde su veya deterjan sürmeyin.'],
+      ['Yağı lifleri zorlamadan alın', 'Temiz bir bezi yağ lekesine hafifçe bastırın. Kazağı gerip sürtmeyin.'],
+      ['Yüne uygun deterjanla yıkayın', 'Etiket elde yıkamaya izin veriyorsa yün deterjanını suda çözün ve kazağı ovuşturmadan yıkayın. Makineye izin veriyorsa yün programını kullanın. Elde bulaşık deterjanını ancak giysi üreticisi leke için özellikle öneriyorsa deneyin ve yıkamadan önce durulayın.'],
+      ['Şeklini verip düz kurutun', 'Etiket izin veriyorsa temiz havlu üstünde düz kurutun. Leke kalırsa bir kuru temizleme uzmanına danışın.']
     ],
     'Yün deterjanı ile yumuşatıcı farklı ürünlerdir. Yumuşatıcı yağ çıkarma adımı değildir.',
     'Klorlu veya oksijen bazlı ağartıcı ve genel amaçlı enzimli deterjan kullanmayın.'
@@ -380,7 +380,7 @@ export const methods = {
   'yeni-dokulen-yag': method(
     'Önce döküntüyü sınırlama',
     'Yeni dökülen yağın fazlasını, yüzey güvenle dokunulacak kadar soğuduğunda kâğıt havluyla alın. Yemek parçalarını kaşıkla kaldırın. Kalan yağ izini kıyafete, halıya, döşemeye veya zemine uygun yöntemle temizleyin.',
-    [towel, 'Künt kenarlı kaşık'], ['İlk müdahale için temizlik ürünü gerekmez'],
+    [towel, 'Künt kenarlı kaşık', 'Yere döküldüyse kurulama bezi'], ['İlk müdahale için temizlik ürünü gerekmez', 'Kalan yer lekesi için zemine uygun temizleyici'],
     [
       ['Katı parçaları kaldırın', 'Sos veya katı yağ varsa kaşığı kenardan ortaya doğru kullanın. Kumaşı kazımayın.'],
       ['Sıvıyı kâğıt havluyla emdirin', 'Kâğıt havlu yağlandıkça temiz bir kâğıt havluyla tampon yapın. Havluyu yüzeyde sürüklemeyin.'],
@@ -393,7 +393,7 @@ export const methods = {
   'yag-lekesi-neden-cikmaz': method(
     'Yağ kalıntısı ile yüzey hasarını ayırma',
     'Yağ lekesi beklediğinde veya kurutucuda ısı gördüğünde çıkması zorlaşabilir. Kuruyunca kalan yapışkanlık ürün kalıntısı, soluk ya da parlak iz yüzey hasarı olabilir. Yeni bir ürün sürmeden önce önceki temizleyicinin durulama talimatına bakın.',
-    ['Gün ışığı veya lamba', 'Önceki ürünlerin etiketleri'], ['Kontrol aşamasında yeni temizleyici gerekmez'],
+    ['Gün ışığı veya lamba', 'Önceki ürünlerin etiketleri', 'Fotoğrafla karşılaştırmak için isteğe bağlı telefon veya fotoğraf makinesi'], ['Kontrol aşamasında yeni temizleyici gerekmez'],
     [
       ['İzi farklı açılarda inceleyin', 'Koyu yağ izi ile eğik ışıkta belirginleşen parlak veya mat hasarı karşılaştırın.'],
       ['Önceki uygulamayı not edin', 'Ürün adı, bekleme süresi, yıkama ve kurutma bilgilerini kaydedin.'],
