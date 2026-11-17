@@ -18,7 +18,7 @@ export const guidePreparation = {
   'deri-koltuktan-yag-lekesi': ['Deri koltuk minderinin altındaki deneme alanı', 'Kullandığınız yöntemin koltuğun bakım kılavuzunda önerildiğini kontrol edin. İlk denemeyi minderin altında görünmeyen küçük bir yerde yapın.'],
   'tul-perdeden-yag-lekesi': ['Tül perdenin alt kenarının arka yüzü', 'Perde evde yıkanabiliyorsa seçeceğiniz ürünü alt kenarın arka yüzünde deneyin. Renk veya doku değişirse lekeye sürmeyin.'],
   'suetten-yag-lekesi': ['Süet ayakkabının gözden uzak iç kenarı', 'Ayakkabının bakım talimatından kuru uygulamaya izin verilip verilmediğini kontrol edin. Yüzeyi ıslatmadan ilerleyin.'],
-  'duvardan-yag-lekesi': ['Mutfak duvarında gizli bir deneme noktası', 'Deterjanlı suyu, duvar silinebiliyorsa mobilya arkasında deneyin. Bezde boya ya da duvarda renk farkı görürseniz durun.'],
+  'duvardan-yag-lekesi': ['Mutfak duvarında gizli bir deneme noktası', 'Boyanın silinebilir olduğundan emin değilseniz önce mobilya arkasına hafif nemli beyaz bir bez dokundurun. Beze boya gelirse duvarı ıslatmayın.'],
   'fayanstan-yag-lekesi': ['Fayans yüzeyi ve derz arası', 'Bir yumuşak bez ve ılık su hazırlayın. Kurumuş yağın fayansın üzerinde mi, derz aralarında mı kaldığına bakın.'],
   'mutfak-dolabindan-yag-lekesi': ['Dolap kapağının iç tarafındaki deneme köşesi', 'Deterjanlı suyu iyice sıkılmış bezle kapağın iç köşesinde deneyin. Kaplama matlaşırsa temizliğe devam etmeyin.'],
   'cam-ocaktan-yag-lekesi': ['Soğuk cam ocak ve çizmez ocak pedi', 'Ocağı kapatıp tamamen soğumasını bekleyin. Kâğıt havlu, ılık su ve yumuşak iki bez hazırlayın.'],

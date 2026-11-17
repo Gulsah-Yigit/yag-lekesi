@@ -196,17 +196,17 @@ export const methods = {
     'Yağ lekesine tuz serpmeyin. Çamaşır sodasını yalnızca perde üreticisi öneriyorsa kullanın. Yalnızca kuru temizlemelik tül için bakım etiketindeki yöntemi izleyin.'
   ),
   'duvardan-yag-lekesi': method(
-    'Silinebilir duvardaki yağ lekesini deterjanlı bezle alma',
-    'Silinebilir duvardaki yağ lekesi için ılık suya birkaç damla elde bulaşık deterjanı ekleyin. Yumuşak bezi iyice sıkıp görünmeyen küçük bir yerde deneyin. Lekeyi nazikçe silin, ardından deterjan kalıntısını temiz, nemli bezle alın.',
-    ['Küçük kap', 'İki yumuşak bez'], [dish, 'Ilık su'],
+    'Duvardaki yağ lekesi için bulaşık deterjanı ve karbonat',
+    'Silinebilir duvardaki yağ lekesini ılık su ve birkaç damla elde bulaşık deterjanıyla temizleyin. Kurumuş yağ kalırsa silmeye ve ovalamaya dayanıklı boyada karbonatla suyu karıştırıp macun yapın. Önce görünmeyen bir yerde deneyin, sonra lekeye bastırmadan uygulayın.',
+    ['Küçük kap', 'Yumuşak bezler', 'Kâğıt havlu'], [dish, 'Ilık su', 'Karbonat (boya ovalamaya dayanıklıysa)'],
     [
-      ['Duvarın silinebilir olduğunu kontrol edin', 'Boyanın bakım talimatına bakın. Yeni boyanan duvarı, boya üreticisinin belirttiği süre dolunca temizleyin.'],
-      ['Ilık suya birkaç damla bulaşık deterjanı ekleyin', 'Yumuşak bezi karışıma batırıp iyice sıkın. Önce mobilya arkasında ya da görünmeyen küçük bir köşede deneyin.'],
-      ['Yağ izini hafifçe silin', 'Beze boya geçmiyorsa az nemle, küçük alanlar hâlinde çalışın. Kurumuş sıçramayı nemli bezle hafifçe yumuşatıp yeniden silin.'],
-      ['Deterjan kalıntısını alıp kurulayın', 'Temiz suyla nemlendirdiğiniz ikinci bezi iyice sıkıp kalıntıyı alın. Ardından yumuşak bir bezle kurulayın.']
+      ['Yeni sıçrayan yağı alın', 'Yağ hâlâ ıslaksa üzerine kâğıt havlu veya temiz bir bez bastırıp kaldırın. Leke kurumuşsa doğrudan ikinci adıma geçin.'],
+      ['Yapışan yağı bulaşık deterjanıyla yumuşatın', 'Bir kâse ılık suya birkaç damla elde bulaşık deterjanı ekleyin. Silinebilir duvarda yumuşak bezi bu suyla nemlendirip iyice sıkın. Bezi lekenin üzerinde kısa süre tutun, sonra lekeyi kenardan ortaya doğru silin.'],
+      ['Kurumuş yağ kaldıysa karbonatlı macun deneyin', 'Bir çay kaşığı karbonata azar azar su ekleyip macun yapın. Boya ovalamaya dayanıklıysa önce görünmeyen bir noktada deneyin. Renk ve parlaklık değişmezse yumuşak beze biraz macun alın ve yağ izinin üzerinden bastırmadan geçin.'],
+      ['Kalıntıyı alın, duvar kuruyunca izi kontrol edin', 'Temiz suyla hafifçe nemlendirilmiş bir bezle deterjanı veya karbonatı alın. Duvar kuruduğunda yağlı tabaka gitmiş ama koyu bir gölge kalmışsa yağ boyaya işlemiş olabilir. O noktada temizliği bırakın.']
     ],
-    'Duvar tamamen kuruduğunda leke ve parlaklık farkı olup olmadığına bakın.',
-    'Beze boya geçerse durun. Silinemeyen boyada ıslak uygulamadan kaçının. Mat duvarda sert sünger veya karbonatla ovalamak iz bırakabilir.'
+    'Yağ deterjanla çıktıysa karbonat adımını atlayın.',
+    'Mat veya silinemeyen boyada karbonat kullanmayın. Ovalamak parlak bir iz bırakabilir. Beze boya geçerse temizliği bırakın.'
   ),
   'fayanstan-yag-lekesi': method(
     'Kurumuş fayans yağını ılık bezle yumuşatma',
