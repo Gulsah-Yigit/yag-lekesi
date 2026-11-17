@@ -57,23 +57,6 @@ function guidePhoto(path, caption, wide = false) {
   </a>`;
 }
 
-const guideOpeningNotes = {
-  'kiyafetten-yag-lekesi': 'Evde yıkanabilen pamuklular için.',
-  'tisortten-yag-lekesi': 'Baskıyı ovalamayın.',
-  'halidan-yag-lekesi': 'Halıyı ıslatmadan ilerleyin.',
-  'duvardan-yag-lekesi': 'Duvar silinebiliyorsa uygulayın.',
-  'ipekten-yag-lekesi': 'Önce bakım etiketine bakın.',
-  'yikanmis-yag-lekesi': 'Giysiyi kurutucuya koymayın.',
-  'motor-yagi-lekesi': 'Evde yalnızca küçük lekelerde.',
-  'hidrolik-yag-lekesi': 'Önce dökülen ürünü belirleyin.',
-  'yanmis-yag': 'Yüzey tamamen soğusun.'
-};
-
-function renderOpeningNote(id, cssClass = '') {
-  const note = guideOpeningNotes[id];
-  return note ? `<p${cssClass ? ` class="${cssClass}"` : ''}>${esc(note)}</p>` : '';
-}
-
 function renderGuideDetail({id, title}) {
   const method = methods[id];
   const denim = id === 'kot-pantolondan-yag-lekesi';
@@ -94,7 +77,7 @@ function renderGuideDetail({id, title}) {
 
   return `<article class="knowledge-detail guide-article" aria-labelledby="${id}-detail-title">
     <header class="guide-detail-header">
-      <h4 id="${id}-detail-title">${esc(title)}</h4>${renderOpeningNote(id)}
+      <h4 id="${id}-detail-title">${esc(title)}</h4>
     </header>
     <ol class="guide-detail-steps" role="list">${steps}</ol>
     <aside class="guide-detail-warning">
@@ -142,7 +125,7 @@ html = html.replace('<!-- OIL_SELECTOR -->', `<div class="oil-selector">
       </div>
     </div>
     ${oilTypes.map(([id]) => `<div class="guide-answer oil-method" id="oil-method-${id}" hidden>
-      <h3>${esc(guides.find(guide => guide.id === id).title)}</h3>${renderOpeningNote(id, 'oil-answer')}
+      <h3>${esc(guides.find(guide => guide.id === id).title)}</h3>
       ${renderMethod(id, 'oil-' + id)}
     </div>`).join('\n    ')}`);
 

@@ -561,7 +561,6 @@ body { background: var(--paper); color: var(--ink); }
 }
 .oil-method[hidden] { display: none; }
 .oil-method h3 { margin: 0 0 9px; }
-.oil-answer { margin: 0 0 14px; color: var(--muted); line-height: 1.6; }
 .oil-section button:focus-visible { outline: 2px solid var(--accent-blue); outline-offset: -3px; }
 @media (max-width: 620px) {
   .oil-selector { grid-template-columns: minmax(0, 1fr); }

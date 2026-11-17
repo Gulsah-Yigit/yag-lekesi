@@ -18,7 +18,7 @@ export const methods = {
     'Pamuklu giysinin etiketi yıkamaya izin veriyorsa, yeni oluşan yağ lekesinde önce fazlalığı kâğıt havluyla alın. Yağ yemekten bulaştıysa kalan ize birkaç damla elde bulaşık deterjanı sürün. Köpüğü tamamen duruladıktan sonra giysiyi yıkayın.',
     [towel, 'Nişasta kullanılacaksa kaşık', laundry], [dish, water, wash, 'İsteğe bağlı mısır nişastası'],
     [
-      ['Fazla yağı kâğıt havluyla alın', 'Kâğıt havluyu yağ lekesine bastırıp kaldırın. Yağın yayılmaması için kumaşı ovalamayın.'],
+      ['Fazla yağı kâğıt havluyla alın', 'Bu adımlar evde yıkanabilen pamuklular için. Kâğıt havluyu lekeye bastırıp kaldırın. Yağın yayılmaması için kumaşı ovalamayın.'],
       ['Gerekirse mısır nişastasıyla fazla yağı alın', 'Kâğıt havluyla aldıktan sonra yüzeyde hâlâ yağ varsa ince bir kat kuru nişasta serpebilirsiniz. Yağı emen nişastayı kaşıkla hafifçe alıp kalanı silkeleyin.'],
       ['Lekeye birkaç damla bulaşık deterjanı sürün', 'Yeni oluşmuş bir yemek lekesiyse, elde bulaşık deterjanını önce kumaşın görünmeyen küçük bir yerinde deneyin. Renk ve doku değişmezse birkaç damlayı lekeye hafifçe yayın.'],
       ['Köpüğü durulayın ve giysiyi yıkayın', 'Köpüğü tamamen durulayın. Sonra giysiyi çamaşır deterjanıyla bakım etiketine göre yıkayın. Havada kurutup izi kontrol edin.']
@@ -70,7 +70,7 @@ export const methods = {
     'Yıkanabilir tişört veya penyede fazla yağı kâğıt havluyla alın. Lekeye sürülebilen sıvı çamaşır deterjanını önce tişörtün iç yüzünde deneyin. Lekeli yer baskıdaysa baskıya uygun bakım talimatını izleyin.',
     [towel, laundry], [liquidWash],
     [
-      ['Yağı bastırarak alın', 'Kâğıt havluyu lekeye bastırıp kaldırın. Baskıyı kazımayın.'],
+      ['Yağı bastırarak alın', 'Kâğıt havluyu lekeye bastırıp kaldırın. Baskıyı ovalamayın.'],
       ['Baskının yerini kontrol edin', 'Leke baskının üzerindeyse ve ürün baskıya uygunluğu belirtmiyorsa ön işlem yapmadan giysi üreticisine danışın.'],
       ['Sıvı çamaşır deterjanını sadece lekeye sürün', 'Önce kumaşın görünmeyen küçük bir yerinde deneyin. Renk değişmezse deterjanı ambalajdaki miktar ve süreye uyarak uygulayın.'],
       ['Ters çevirip yıkayın', 'Etiket izin veriyorsa tişörtü ters çevirip çamaşır deterjanıyla yıkayın. Kurutma öncesi lekeyi inceleyin.']
