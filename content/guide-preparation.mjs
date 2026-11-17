@@ -15,7 +15,7 @@ export const guidePreparation = {
   'ketenden-yag-lekesi': ['Keten pantolonun paçasının iç yüzü', 'Kumaşın saf keten mi, karışım mı olduğunu etiketten kontrol edin. Ürünü denemek için paçanın iç tarafını kullanın.'],
   'halidan-yag-lekesi': ['Halının görünmeyen kenarı ve tabanı', 'Önerilen uygulamayı önce halının görünmeyen bir kenarında deneyin. Beze renk geçerse veya lifler değişirse devam etmeyin.'],
   'koltuktan-yag-lekesi': ['Minder kılıfının fermuarı ve iç yüzü', 'Bakım talimatını minderin altındaki etikette veya koltuğun ürün sayfasında arayın. Deterjanlı su uygunsa önce minderin arka alt köşesinde deneyin.'],
-  'deri-koltuktan-yag-lekesi': ['Deri koltuk minderinin altındaki deneme alanı', 'Deriye uygun temizleyiciyi minderin altında görünmeyen küçük bir alanda deneyin. Renk veya parlaklık değişirse uygulamayı bırakın.'],
+  'deri-koltuktan-yag-lekesi': ['Deri koltuk minderinin altındaki deneme alanı', 'Kullandığınız yöntemin koltuğun bakım kılavuzunda önerildiğini kontrol edin. İlk denemeyi minderin altında görünmeyen küçük bir yerde yapın.'],
   'tul-perdeden-yag-lekesi': ['Tül perdenin alt kenarının arka yüzü', 'Perdenin bakım etiketi evde yıkamaya izin veriyorsa ürünü tülün gözden uzak bir kenarında deneyin.'],
   'suetten-yag-lekesi': ['Süet ayakkabının gözden uzak iç kenarı', 'Ayakkabının bakım talimatından kuru uygulamaya izin verilip verilmediğini kontrol edin. Yüzeyi ıslatmadan ilerleyin.'],
   'duvardan-yag-lekesi': ['Mutfak duvarında gizli bir deneme noktası', 'Duvar boyasının silinebildiğini kontrol edin. Sabunlu suyu yumuşak bir bezle önce gözden uzak küçük bir noktada deneyin.'],

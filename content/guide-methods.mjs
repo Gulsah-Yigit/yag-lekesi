@@ -170,17 +170,17 @@ export const methods = {
     'Etiket suyla temizliğe izin vermiyorsa ya da bakım bilgisine ulaşamıyorsanız fazla yağı kuru bezle alın. Deri ve yalnızca kuru temizlemelik döşemede bu karışımı uygulamayın.'
   ),
   'deri-koltuktan-yag-lekesi': method(
-    'Deri kaplamasına özel temizleyici',
-    'Deri koltuktaki fazla yağı kuru bezle bastırıp kaldırın. Deri koruyucu kaplamalıysa üreticinin önerdiği temizleyiciyi minderin altında deneyin. Yağ deriye işlemişse deri bakım uzmanına danışın.',
-    [cloth, 'İkinci kuru bez'], ['Deri tipine uygun, koltuk üreticisinin onayladığı deri temizleyicisi'],
+    'Deri koltukta fazla yağı kuru bez veya uygun emiciyle alma',
+    'Deri koltuktaki fazla yağı kuru beyaz bezle ovalamadan alın. Koltuğun bakım kılavuzu öneriyorsa yüzeyde kalan yağı emmesi için az miktarda kuru mısır nişastası kullanabilirsiniz. Yağ deriye işlemişse deri bakım uzmanına danışın.',
+    ['Temiz, kuru beyaz bezler'], ['Bakım kılavuzu öneriyorsa mısır nişastası veya deriye uygun temizleyici'],
     [
-      ['Deri türünü öğrenin', 'Koltuk modelinden derinin koruyucu kaplamalı mı, emici anilin deri mi olduğunu kontrol edin.'],
-      ['Kuru bezle bastırıp kaldırın', 'Taze yağı sürtmeden alın. Derinin içine çekilmiş izi kazımayın.'],
-      ['Deri temizleyicisini gizli yerde deneyin', 'Üretici izin veriyorsa ürünü bezle minderin arkasında test edin. Kuruduğunda renk ve parlaklığa bakın.'],
-      ['Lekenin üzerinde kısa ve kontrollü çalışın', 'Test uygunsa ambalajdaki yöntemi izleyin ve kalıntıyı ikinci bezle tarif edildiği şekilde alın.']
+      ['Koltuk modelinin bakım talimatına bakın', 'Minderin altındaki etiketten veya faturadan koltuğun modelini bulun. Üreticinin yağ lekesi için verdiği talimatı kontrol edin. Leke yeniyse fazla yağı hemen kuru bezle alın.'],
+      ['Fazla yağı kuru bezle alın', 'Kuru beyaz bezi lekeye hafifçe bastırıp kaldırın. Deriyi ovalamayın veya yağ izini kazımayın.'],
+      ['Kullanacağınız ürünü görünmeyen bir yerde deneyin', 'Kılavuz mısır nişastası veya bir deri temizleyicisi öneriyorsa önce minderin altında küçük bir yerde deneyin. Renk veya parlaklık değişirse ürünü kullanmayın.'],
+      ['Yüzeyde kalan yağı alın', 'Kılavuz öneriyorsa ince bir kat kuru mısır nişastası serpin. Yağı emen tozu deriye bastırmadan nazikçe alın. Kılavuz deri temizleyicisi öneriyorsa ürünü yumuşak beze alıp kendi talimatına göre uygulayın.']
     ],
-    'Yağ emilip koyu bir gölge bıraktıysa deri bakım uzmanına lekenin türünü söyleyin.',
-    'Bulaşık deterjanı, alkol, sirke ve çamaşır leke çıkarıcılarını deriye uygulamayın.'
+    'Yağ deriye işleyip koyu bir iz bıraktıysa başka bir ürün denemeden deri bakım uzmanına danışın.',
+    'Karbonatı ancak koltuğun bakım kılavuzu özellikle öneriyorsa kullanın. Derinin türü veya bakım talimatı belirsizse fazla yağı kuru bezle almakla yetinin.'
   ),
   'tul-perdeden-yag-lekesi': method(
     'Yıkanabilir tülü filede yıkama',
