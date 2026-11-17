@@ -70,32 +70,9 @@ body { background: var(--paper); color: var(--ink); }
 .hero .search-field > .icon { color: var(--ink); }
 .hero .search-field input::placeholder { color: #465c70; }
 .hero .search-field button { border-radius: 50%; width: 46px; height: 46px; }
-.hero-surfaces {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: clamp(6px, 1vw, 14px);
-  margin-top: 18px;
-}
-.hero-surfaces a {
-  display: grid;
-  justify-items: center;
-  align-content: center;
-  gap: 6px;
-  min-height: 78px;
-  padding: 7px 4px;
-  border: 1px solid #fff;
-  border-radius: 13px;
-  background: #ffffff6b;
-  color: var(--ink);
-  font-size: clamp(11px, 1.2vw, 15px);
-  font-weight: 750;
-  text-align: center;
-}
-.hero-surfaces a:hover { background: #fff; text-decoration: none; }
-.hero-surfaces .icon { width: 27px; height: 27px; }
 .hero-comparison {
   --split: 70%;
+  --hanger-center: 70.1%;
   position: relative;
   isolation: isolate;
   overflow: hidden;
@@ -106,14 +83,24 @@ body { background: var(--paper); color: var(--ink); }
   border-radius: 0 0 20px 0;
   background: var(--hero-blue);
 }
-.hero-comparison img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 42%; }
+.hero-comparison > :is(.comparison-before, .comparison-after) { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 42%; }
+.comparison-brand {
+  position: absolute;
+  top: 3.1%;
+  left: var(--hanger-center);
+  width: clamp(36px, 4.15vw, 68px);
+  height: 4.8%;
+  object-fit: contain;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
 .comparison-before { clip-path: inset(0 calc(100% - var(--split)) 0 0); }
 .comparison-divider {
   position: absolute;
   inset: 0 auto 0 clamp(2px, var(--split), calc(100% - 2px));
   width: 3px;
   transform: translateX(-50%);
-  background: #fff;
+  background: linear-gradient(transparent 7%, #fff 7%);
   pointer-events: none;
 }
 .comparison-divider span {
@@ -259,8 +246,6 @@ body { background: var(--paper); color: var(--ink); }
   .hero-description { margin-top: 12px; }
   .hero-search { margin-top: 17px; }
   .hero .search-field input { font-size: 12px; }
-  .hero-surfaces a { min-height: 62px; }
-  .hero-surfaces .icon { width: 21px; height: 21px; }
   .hero-comparison { min-height: 0; aspect-ratio: 1.23; border-radius: 0 0 20px 20px; }
 }
 
@@ -280,21 +265,18 @@ body { background: var(--paper); color: var(--ink); }
     grid-template-columns: minmax(0, 43fr) minmax(0, 57fr);
   }
   .hero .hero-copy { justify-content: center; padding: clamp(82px, 6.3vw, 96px) 1.3vw 2.7vw 6.35vw; pointer-events: none; }
-  .hero-copy :is(.hero-search,.hero-surfaces) { pointer-events: auto; }
+  .hero-copy .hero-search { pointer-events: auto; }
   .hero h1 { font-size: clamp(29px, 4.05vw, 78px); margin-top: clamp(13px, 2vw, 31px); }
   .hero-description { max-width: 29ch; font-size: clamp(13px, 1.43vw, 24px); margin-top: clamp(10px, 1.35vw, 21px); line-height: 1.42; }
   .hero-search { width: min(100%, 32vw); max-width: none; margin-top: clamp(12px, 1.95vw, 30px); }
-  .hero-surfaces { width: min(100%, 30.6vw); margin-top: clamp(10px, 1.55vw, 24px); }
-  .hero-surfaces a { min-height: clamp(52px, 6.5vw, 110px); }
   .hero-comparison { position: absolute; inset: 0; min-height: 0; }
-  .hero-comparison img { object-fit: fill; }
+  .hero-comparison > :is(.comparison-before, .comparison-after) { object-fit: fill; }
   .comparison-label-before { left: 55.5%; }
   .comparison-label-after { right: 14.4%; }
   .comparison-range { top: 72px; height: calc(100% - 72px); }
 }
 @media (max-width: 850px) {
   .header { background: var(--hero-blue); }
-  .hero .hero-surfaces { display: none; }
   .hero .hero-grid {
     grid-template-columns: minmax(0, 1fr);
     grid-template-rows: auto minmax(260px, 1fr);
@@ -302,7 +284,8 @@ body { background: var(--paper); color: var(--ink); }
     min-height: calc(100svh - 72px);
   }
   .hero-comparison { min-height: 260px; aspect-ratio: auto; }
-  .hero-comparison img { object-position: right center; }
+  .hero-comparison > :is(.comparison-before, .comparison-after) { object-position: var(--hanger-center) top; }
+  .comparison-brand { top: max(3.1%, 1.31vw); }
   .comparison-label-before { left: 8%; }
   .comparison-label-after { right: 5%; }
 }

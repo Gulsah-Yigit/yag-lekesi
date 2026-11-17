@@ -215,7 +215,7 @@ schema['@graph'][1].hasPart={'@type':'ItemList','name':'Yağ lekesi bilgi rehber
 html=html.replace(schemaMatch[0],'<script type="application/ld+json" id="page-schema">'+JSON.stringify(schema)+'</script>');
 html=html.replaceAll('yayınlamadan','yaymadan');
 html=html.replaceAll(/<\/?em>/g,'');
-html=html.replace('<link rel="stylesheet" href="style.css">','<link rel="stylesheet" href="style.css"><link rel="stylesheet" href="knowledge.css?v=22"><link rel="stylesheet" href="carousel.css"><link rel="stylesheet" href="hero-polish.css?v=20"><link rel="stylesheet" href="accordion.css?v=38"><link rel="stylesheet" href="blue-theme.css?v=34"><link rel="stylesheet" href="guide-detail.css?v=4">');
+html=html.replace('<link rel="stylesheet" href="style.css">','<link rel="stylesheet" href="style.css"><link rel="stylesheet" href="knowledge.css?v=22"><link rel="stylesheet" href="carousel.css"><link rel="stylesheet" href="hero-polish.css?v=20"><link rel="stylesheet" href="accordion.css?v=38"><link rel="stylesheet" href="blue-theme.css?v=35"><link rel="stylesheet" href="guide-detail.css?v=4">');
 html=html.replace('src="app.js"', 'src="app.js?v=35"');
 await fs.writeFile('dist/index.html',html);
 console.log(JSON.stringify({guides:guides.length,categories:categories.filter(c=>c.id!=='all').map(c=>({name:c.name,count:guides.filter(g=>g.cat===c.id).length}))}));
