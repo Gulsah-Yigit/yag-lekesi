@@ -1,7 +1,7 @@
 // The preparation photograph and its caption show the same surface or test area.
 export const guidePreparation = {
   'kiyafetten-yag-lekesi': ['Giysinin iç yüzü', 'Deterjanı önce giysinin dışarıdan görünmeyen küçük bir yerinde deneyin.'],
-  'kot-pantolondan-yag-lekesi': ['Bel bandının iç yüzü ve paçanın iç kıvrımı', 'Bel bandının iç yüzüne veya paçanın iç kıvrımına az miktarda ürün uygulayın. Kotun rengi ya da dokusu değişirse o ürünü lekeye sürmeyin.'],
+  'kot-pantolondan-yag-lekesi': ['Bel bandının iç yüzü ve paçanın iç kıvrımı', 'Kullanacağınız ürünü önce bel bandının iç yüzü veya paçanın iç kıvrımı gibi görünmeyen küçük bir yerde deneyin. Az miktarda ürün sürün ve kotun renginin ya da dokusunun değişip değişmediğine bakın.'],
   'pantolondan-yag-lekesi': ['Pantolonun bel bandının iç yüzü ve astarı', 'Kumaşla astarın bakım talimatını kontrol edin. Ürünü önce bel bandının iç yüzünde veya paçanın iç kıvrımında deneyin.'],
   'gomlekten-yag-lekesi': ['Gömleğin alt kenarının iç yüzü', 'Gömleğin yıkanabildiğini bakım etiketinden doğrulayın. Ürünü etek ucunun iç tarafında deneyin.'],
   'tisortten-yag-lekesi': ['Tişörtün alt kenarının iç yüzü', 'Tişörtü ters çevirin. Ürünü baskıdan uzak, dışarıdan görünmeyen bir yerde az miktarda deneyin.'],

@@ -18,26 +18,26 @@ export const methods = {
     'Pamuklu giysinin etiketi yıkamaya izin veriyorsa, yeni oluşan yağ lekesinde önce fazlalığı kâğıt havluyla alın. Yağ yemekten bulaştıysa kalan ize birkaç damla elde bulaşık deterjanı sürün. Köpüğü tamamen duruladıktan sonra giysiyi yıkayın.',
     [towel, 'Nişasta kullanılacaksa kaşık', laundry], [dish, water, wash, 'İsteğe bağlı mısır nişastası'],
     [
-      ['Fazla yağı kâğıt havluyla alın', 'Bu adımlar evde yıkanabilen pamuklular için. Kâğıt havluyu lekeye bastırıp kaldırın. Yağın yayılmaması için kumaşı ovalamayın.'],
-      ['Gerekirse mısır nişastasıyla fazla yağı alın', 'Kâğıt havluyla aldıktan sonra yüzeyde hâlâ yağ varsa ince bir kat kuru nişasta serpebilirsiniz. Yağı emen nişastayı kaşıkla hafifçe alıp kalanı silkeleyin.'],
-      ['Lekeye birkaç damla bulaşık deterjanı sürün', 'Yeni oluşmuş bir yemek lekesiyse, elde bulaşık deterjanını önce kumaşın görünmeyen küçük bir yerinde deneyin. Renk ve doku değişmezse birkaç damlayı lekeye hafifçe yayın.'],
-      ['Köpüğü durulayın ve giysiyi yıkayın', 'Köpüğü tamamen durulayın. Sonra giysiyi çamaşır deterjanıyla bakım etiketine göre yıkayın. Havada kurutup izi kontrol edin.']
+      ['Fazla yağı kâğıt havluyla alın', 'Kâğıt havluyu lekeye hafifçe bastırıp fazla yağı emdirin. Yağın yayılmaması için kumaşı ovalamayın.'],
+      ['Gerekirse mısır nişastasıyla fazla yağı alın', 'Kâğıt havluyla aldıktan sonra yüzeyde hâlâ fazla yağ varsa ince bir kat nişasta serpebilirsiniz. Yağı emen nişastayı kaşıkla kazıyarak alıp, kalanı silkeleyin.'],
+      ['Lekeye birkaç damla bulaşık deterjanı sürün', 'Yeni oluşmuş bir yağ veya yağlı yemek lekesiyse, elde bulaşık deterjanından yardım alabilirsiniz. Bulaşık deterjanını önce kumaşın görünmeyen küçük bir yerinde deneyin. Renk ve doku değişmezse birkaç damlayı lekeye hafifçe yayın.'],
+      ['Köpüğü durulayın ve giysiyi yıkayın', 'Köpüğü tamamen durulayın. Sonra giysiyi çamaşır deterjanıyla bakım etiketine göre yıkayın. Açık havada kurutup izi kontrol edin.']
     ],
     'Leke kuruduysa kurumuş yağ lekesi rehberindeki adımları izleyin.',
     'Elde bulaşık deterjanını makineye eklemeyin. Yün, ipek ve kuru temizlemelik giysilerde kendi bakım talimatını izleyin.'
   ),
   'kot-pantolondan-yag-lekesi': method(
     'Kot pantolonda yağ lekesine ön işlem',
-    'Pamuklu kotunuz evde yıkanabiliyorsa, yemekten kalan yeni bir yağ lekesine birkaç damla elde bulaşık deterjanı sürebilirsiniz. Önce paçanın içinde deneyin ve makinede yıkamadan önce köpüğü tamamen durulayın.',
-    [towel, laundry], [dish, water, wash, 'Alternatif olarak lekeye sürülebilen sıvı çamaşır deterjanı'],
+    'Kot pantolondaki fazla yağı kâğıt havluyla alın. Evde yıkanabilen kotta yeni oluşan bir yemek yağı lekesine birkaç damla sıvı elde bulaşık deterjanı sürüp 5–10 dakika bekletin. Köpüğü tamamen durulayıp kotu ters çevirerek bakım etiketine göre yıkayın.',
+    [towel, laundry], [dish, water, wash],
     [
-      ['Fazla yağı alın', 'Kâğıt havluyu lekeye hafifçe bastırıp kaldırın. Yağın yayılmaması için kotu ovalamayın.'],
-      ['Lekenin üzerine az miktarda deterjan sürün', 'Pamuklu kotun etiketi yıkamaya izin veriyorsa, yeni yağ lekesi yemekten kaynaklanıyorsa deterjanı önce paçanın iç tarafında deneyin. Renk değişmezse birkaç damla sürün. Lekeye sürülebilen sıvı çamaşır deterjanı da kullanılabilir.'],
-      ['Durulayın ve yıkayın', 'Elde bulaşık deterjanı kullandıysanız köpüğü tamamen durulayın. Çamaşır deterjanı için ambalajdaki talimatı izleyin. Kotu ters çevirip bakım etiketinde belirtilen programda yıkayın.'],
-      ['Havada kurutup kontrol edin', 'Kot pantolonu havada kurutun ve yağ izi kalıp kalmadığına bakın. İz varsa kurutucu veya ütü kullanmayın.']
+      ['Fazla yağı alın', 'Kâğıt havluyla hafifçe tampon yapın. Lekeyi ovalayarak yaymayın.'],
+      ['Deterjan uygulayın', 'Kot evde yıkanabiliyorsa ve renk denemesinde değişim olmadıysa yemekten kalan yeni yağ lekesine birkaç damla sıvı elde bulaşık deterjanı sürün. Parmak ucuyla nazikçe yayın ve 5–10 dakika bekletin.', '5–10 dakika'],
+      ['Durulayın ve yıkayın', 'Bulaşık deterjanını tamamen durulayın. Kot pantolonu ters çevirip bakım etiketindeki talimatlara göre yıkayın.'],
+      ['Kendiliğinden kurutup kontrol edin', 'Yağ izi kalmışsa işlemi tekrarlayın. Leke tamamen çıkmadan kurutma makinesi veya ütü kullanmayın.']
     ],
-    'Arka cepteki lekede çalışırken cep içine bir kat kâğıt havlu koyarak yağı diğer kata taşımayın.',
-    'Koyu mavi ve siyah kotta sertçe ovalamak rengin açılmasına yol açabilir. Su sıcaklığını bakım etiketine göre seçin ve pantolonu gölgede kurutun.'
+    'Leke arka cepteyse yağı kumaşın diğer katına geçirmemek için cebin içine kâğıt havlu koyabilirsiniz.',
+    'Kumaşın yıpranmaması için kotu sertçe ovalamayın. Rengini korumak için bakım etiketi izin veriyorsa düşük sıcaklıkta yıkayın ve gölgede kurutun.'
   ),
   'pantolondan-yag-lekesi': method(
     'Yıkanabilir pantolonda sıvı çamaşır deterjanı',

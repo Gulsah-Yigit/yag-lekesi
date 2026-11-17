@@ -63,14 +63,16 @@ function renderGuideDetail({id, title}) {
   const directory = denim ? 'assets/guide-detail/denim' : `assets/guide-steps/${id}`;
   const [prepCaption, prepText] = guidePreparation[id];
   const prepPhoto = denim ? directory + '/prep.jpg' : `assets/guide-detail/preparation/${id}.jpg?v=2`;
-  const steps = method.steps.map(([heading, description], index) => {
+  const steps = method.steps.map(([heading, description, emphasis], index) => {
     const step = index + 1;
     const careLabel = careLabelSteps[id] === step;
     const path = careLabel ? `assets/guide-detail/care-labels/${id}.jpg?v=2` : `${directory}/${step}.jpg`;
+    const copy = esc(description);
+    const body = emphasis ? copy.replace(esc(emphasis), `<strong>${esc(emphasis)}</strong>`) : copy;
     const photo = guidePhoto(path, careLabel ? 'Giysinin iç yüzündeki temsili bakım etiketi' : heading, denim);
     return `
     <li class="guide-detail-step">
-      <div><h5>${step}. ${esc(heading)}</h5><p>${esc(description)}</p></div>
+      <div><h5>${step}. ${esc(heading)}</h5><p>${body}</p></div>
       ${careLabel ? `<figure class="guide-detail-figure">${photo}<figcaption>Temsili bakım etiketi</figcaption></figure>` : photo}
     </li>`;
   }).join('');
