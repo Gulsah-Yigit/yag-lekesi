@@ -57,26 +57,26 @@ export const methods = {
     'Gömleğe yemek yağı damladıysa fazlasını kâğıt havluyla alın. Evde yıkanabilen pamuklu gömlekte, yüzeyde hâlâ yağ varsa mısır nişastası veya karbonat fazlasını emebilir. Kalan ize birkaç damla elde bulaşık deterjanı sürün, köpüğü tamamen durulayın ve gömleği etiketine göre yıkayın.',
     [towel, laundry], [dish, water, wash, 'İsteğe bağlı mısır nişastası veya karbonat'],
     [
-      ['Fazla yağı kâğıt havluyla alın', 'Lekenin altına kâğıt havlu koyun. Üstten başka bir havluyla hafifçe bastırarak yağı alın. Kumaşı ovalamayın. Evde yıkanabilen pamuklu gömlekte hâlâ fazla yağ varsa biraz mısır nişastası veya karbonat serpebilirsiniz. Toz yağı emince nazikçe alın.'],
-      ['Bulaşık deterjanını gömleğin iç yüzünde deneyin', 'Yıkanabilen pamuklu gömlekte, yemekten kalan yeni bir iz için deterjanı önce gömleğin alt kenarının iç yüzünde deneyin. Renk ve doku değişmiyorsa birkaç damlayı lekeye yayın. Yaka veya manşeti fırçalamayın.'],
-      ['Köpüğü durulayın', 'Lekeli alanı bakım etiketine uygun sıcaklıkta suyla iyice durulayın.'],
+      ['Fazla yağı kâğıt havluyla alın', 'Lekenin altına kâğıt havlu koyun. Üstten başka bir havluyla hafifçe bastırarak yağı alın. Kumaşı ovalamayın. Gömlekte hâlâ fazla yağ varsa biraz mısır nişastası veya karbonat gibi yağı emebilen ürünlerden serpebilirsiniz. Toz yağı emince nazikçe silkeleyin.'],
+      ['Bulaşık deterjanını gömleğin iç yüzünde deneyin', 'Önce fazla yağdan arındırılan gömleğin görünmeyen küçük bir alanında deterjanı test edin. Renk ve doku değişmiyorsa birkaç damlayı lekeye yayın.'],
+      ['Köpüğü durulayın', 'Ardından lekeli alanı bakım etiketine uygun sıcaklıkta suyla iyice durulayın.'],
       ['Normal yıkamaya geçin', 'Gömleği çamaşır deterjanıyla etikete göre yıkayın. Ütülemeden önce manşet ve yaka dahil lekeli yeri kontrol edin.']
     ],
     'Koyu renkli bir gömlekte denemeyi etek ucunun iç tarafında yapabilirsiniz.',
     'Makineye elde bulaşık deterjanı eklemeyin. Bu yöntemi ipek veya kuru temizlemelik gömleğe uygulamayın.'
   ),
   'tisortten-yag-lekesi': method(
-    'Baskıyı koruyarak ön işlem',
-    'Yıkanabilir tişört veya penyede fazla yağı kâğıt havluyla alın. Lekeye sürülebilen sıvı çamaşır deterjanını önce tişörtün iç yüzünde deneyin. Lekeli yer baskıdaysa baskıya uygun bakım talimatını izleyin.',
+    'Tişört ve penyede yağ lekesini yıkamadan temizleme',
+    'Yıkanabilir tişört veya penyede önce fazla yağı kâğıt havluyla alın. Lekeye doğrudan sürülebilen sıvı çamaşır deterjanını tişörtün iç yüzünde deneyin. Renk ve doku değişmezse lekeye uygulayın ve tişörtü bakım etiketine göre yıkayın.',
     [towel, laundry], [liquidWash],
     [
-      ['Yağı bastırarak alın', 'Kâğıt havluyu lekeye bastırıp kaldırın. Baskıyı ovalamayın.'],
-      ['Baskının yerini kontrol edin', 'Leke baskının üzerindeyse ve ürün baskıya uygunluğu belirtmiyorsa ön işlem yapmadan giysi üreticisine danışın.'],
-      ['Sıvı çamaşır deterjanını sadece lekeye sürün', 'Önce kumaşın görünmeyen küçük bir yerinde deneyin. Renk değişmezse deterjanı ambalajdaki miktar ve süreye uyarak uygulayın.'],
-      ['Ters çevirip yıkayın', 'Etiket izin veriyorsa tişörtü ters çevirip çamaşır deterjanıyla yıkayın. Kurutma öncesi lekeyi inceleyin.']
+      ['Fazla yağı kâğıt havluyla alın', 'Kâğıt havluyu lekeye hafifçe bastırıp kaldırın. Kumaşı ovalamadan fazla yağı alın.'],
+      ['Deterjanı görünmeyen bir yerde deneyin', 'Tişört evde yıkanabiliyorsa lekeye sürülebilen sıvı çamaşır deterjanını önce alt kenarın iç yüzünde deneyin. Renk veya doku değişirse ürünü kullanmayın.'],
+      ['Deterjanı yağ lekesine sürün', 'Renk ve doku değişmediyse lekeye az miktarda deterjan sürün. Ne kadar bekleteceğinize ambalajdan bakın.'],
+      ['Yıkayın ve kuruyunca kontrol edin', 'Tişörtü bakım etiketine göre yıkayıp havada kurutun. İz kaldıysa işlemi tekrarlayın. Leke çıkmadan ütü veya kurutucu kullanmayın.']
     ],
-    'Baskısız, dayanıklı pamukta taze yağ için genel kıyafet rehberindeki nişasta yöntemine de bakabilirsiniz.',
-    'Baskının üzerinde fırçalı leke çıkarıcı veya yüksek ısı kullanmayın.'
+    'Yağın tişörtün arkasına geçmemesi için lekenin altına kuru kâğıt havlu koyabilirsiniz.',
+    'Leke baskının üzerindeyse baskıyı ovalamayın. Ambalajında baskılı kumaşa uygun olduğu belirtilen bir ürün kullanın.'
   ),
   'beyaz-kiyafetten-yag-lekesi': method(
     'Yağa yönelik sprey, gerekiyorsa oksijenli toz',

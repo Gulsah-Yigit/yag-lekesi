@@ -4,7 +4,7 @@ export const guidePreparation = {
   'kot-pantolondan-yag-lekesi': ['Bel bandının iç yüzü ve paçanın iç kıvrımı', 'Leke çıkarmada kullanacağınız ürünü önce bel bandının iç yüzü veya paçanın iç kıvrımı gibi görünmeyen küçük bir alanda, az miktarda ürünle deneyin; denim kumaşta renk değişimi olup olmadığını kontrol edin.'],
   'pantolondan-yag-lekesi': ['Pantolonun bel bandının iç yüzü ve astarı', 'Kumaşın ve varsa astarın bakım etiketine bakın. Deterjanı önce bel bandının iç yüzünde veya paçanın iç kıvrımında deneyin.'],
   'gomlekten-yag-lekesi': ['Gömleğin alt kenarının iç yüzü', 'Gömleğin yıkanabildiğini bakım etiketinden doğrulayın. Ürünü etek ucunun iç tarafında deneyin.'],
-  'tisortten-yag-lekesi': ['Tişörtün alt kenarının iç yüzü', 'Tişörtü ters çevirin. Ürünü baskıdan uzak, dışarıdan görünmeyen bir yerde az miktarda deneyin.'],
+  'tisortten-yag-lekesi': ['Tişörtün alt kenarının iç yüzü', 'Tişörtün hangi sıcaklıkta yıkanabildiğine bakım etiketinden bakın. Deterjanı denemek için tişörtü ters çevirip alt kenarının iç yüzünü kullanın.'],
   'beyaz-kiyafetten-yag-lekesi': ['Beyaz kumaş ve uygulama malzemeleri', 'Ağartıcı kullanmayı düşünüyorsanız bakım etiketindeki üçgen işaretini kontrol edin. Ürünün kumaşa uygunluğunu ambalajından doğrulayın.'],
   'elbiseden-yag-lekesi': ['Elbisenin dış kumaşı ve astarı', 'Dış kumaşı astardan ayırın. Her iki kumaşın bakım talimatını kontrol edip yalnız lekeli kata uygulama yapın.'],
   'monttan-yag-lekesi': ['Montun iç yüzü ve dış kaplaması', 'Montun bakım etiketini ve varsa kaplama talimatını kontrol edin. Üreticinin önerdiği ürünü kullanın.'],
