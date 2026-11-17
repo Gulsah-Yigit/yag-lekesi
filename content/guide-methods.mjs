@@ -32,25 +32,25 @@ export const methods = {
     [towel, laundry], [dish, water, wash],
     [
       ['Fazla yağı alın', 'Kâğıt havluyla hafifçe tampon yapın. Lekeyi ovalayarak yaymayın.'],
-      ['Deterjan uygulayın', 'Kot evde yıkanabiliyorsa ve renk denemesinde değişim olmadıysa yemekten kalan yeni yağ lekesine birkaç damla sıvı elde bulaşık deterjanı sürün. Parmak ucuyla nazikçe yayın ve 5–10 dakika bekletin.', '5–10 dakika'],
+      ['Deterjan uygulayın', 'Lekenin üzerine az miktarda sıvı elde bulaşık yıkama deterjanı sürün. Parmak ucuyla nazikçe yedirip 5–10 dakika bekletin.', '5–10 dakika '],
       ['Durulayın ve yıkayın', 'Bulaşık deterjanını tamamen durulayın. Kot pantolonu ters çevirip bakım etiketindeki talimatlara göre yıkayın.'],
       ['Kendiliğinden kurutup kontrol edin', 'Yağ izi kalmışsa işlemi tekrarlayın. Leke tamamen çıkmadan kurutma makinesi veya ütü kullanmayın.']
     ],
     'Leke arka cepteyse yağı kumaşın diğer katına geçirmemek için cebin içine kâğıt havlu koyabilirsiniz.',
-    'Kumaşın yıpranmaması için kotu sertçe ovalamayın. Rengini korumak için bakım etiketi izin veriyorsa düşük sıcaklıkta yıkayın ve gölgede kurutun.'
+    'Kumaş liflerini yıpratmamak için sertçe ovalamaktan kaçının. Jean pantolonun rengini korumak için düşük sıcaklıkta yıkamayı ve gölgede kurutmayı tercih edin; bakım etiketini esas alın.'
   ),
   'pantolondan-yag-lekesi': method(
-    'Yıkanabilir pantolonda sıvı çamaşır deterjanı',
-    'Yıkanabilir kumaş pantolonda fazla yağı kâğıt havluyla alın. Sıvı çamaşır deterjanı lekeye sürülebiliyorsa önce bel kısmının iç yüzünde deneyin. Ardından lekeye uygulayıp etikete göre yıkayın. Yünlü ya da kuru temizlemelik takım pantolonunda bakım etiketini izleyin.',
-    [towel, laundry], [liquidWash],
+    'Kumaş pantolonda yemek yağı lekesi',
+    'Evde yıkanabilen pamuklu veya polyester pantolonda fazla yağı kâğıt havluyla alın. Yeni lekede mısır nişastası veya karbonat fazla yağı emebilir. Kalan iz için birkaç damla elde bulaşık deterjanı kullanın, tamamen durulayın ve etikete göre yıkayın.',
+    [towel, 'Kaşık', laundry], [dish, water, wash, 'İsteğe bağlı mısır nişastası veya karbonat'],
     [
-      ['Astarı ve lif etiketini okuyun', 'Evde yıkanabiliyorsa devam edin. Kuru temizleme işareti varsa lekeyi temizlemeciye gösterin.'],
-      ['Kumaş katlarını ayırın', 'Pantolonda lekenin altına kâğıt havlu koyun. Üstteki yağı ikinci bir kâğıt havluyla tamponlayarak alın.'],
-      ['Lekenin üzerine az miktarda deterjan sürün', 'Önce kumaşın görünmeyen küçük bir yerinde deneyin. Renk değişmezse sıvı çamaşır deterjanını ambalajdaki miktar ve süreye uyarak sadece lekeye sürün.'],
-      ['Etikete göre yıkayın', 'Çamaşır deterjanıyla etiketteki programı kullanın. Ütü çizgisini düzeltmeden önce izin kaybolduğundan emin olun.']
+      ['Fazla yağı alın', 'Bakım etiketi yıkamaya izin veriyorsa tereyağı gibi katı kalıntıları kaşıkla alın. Lekenin altına kâğıt havlu koyup üstten başka bir havluyla hafifçe bastırın. Kumaşı ovalamayın.'],
+      ['Yeni lekede nişasta veya karbonat deneyin', 'Kumaşı ıslatmadan mısır nişastası veya karbonat serpin. 10–15 dakika sonra yağı emen tozu nazikçe alın.', '10–15 dakika'],
+      ['Kalan yağlı izi temizleyin', 'Elde bulaşık deterjanını önce görünmeyen bir yerde deneyin. Renk değişmezse lekeye birkaç damla sürün. 5–10 dakika bekletip tamamen durulayın. Bulaşık makinesi deterjanı kullanmayın.', '5–10 dakika'],
+      ['Etikete göre yıkayın ve kuruyunca kontrol edin', 'Pantolonu bakım etiketine göre yıkayın ve havada kurutun. İz kaldıysa işlemi tekrarlayın. Leke çıkmadan ütü veya kurutma makinesi kullanmayın.']
     ],
-    'Cepli pantolonda lekenin astara kadar geçip geçmediğine de bakın.',
-    'Yünlü veya yalnızca kuru temizlemeye uygun pantolonda bu yöntemi uygulamayın.'
+    'Leke beklemişse veya yıkamadan sonra kaldıysa toz uygulamasını atlayıp 3. adıma geçin.',
+    'Bu adımlar evde yıkanabilen pamuklu ve polyester pantolonlar için. Yünlü ve hassas kumaşlarda bakım etiketini izleyin. Etikette yalnızca kuru temizleme yazıyorsa fazla yağı kâğıt havluyla alıp pantolonu temizlemeciye götürün.'
   ),
   'gomlekten-yag-lekesi': method(
     'Pamuklu gömlekte yeni oluşan yağ lekesi',
