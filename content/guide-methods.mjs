@@ -96,39 +96,39 @@ export const methods = {
     'Elbise, bluz veya eteğin kumaşı ve astarı yıkanabiliyorsa yağı kâğıt havluyla alın. Ürün talimatı izin veriyorsa az miktarda sıvı çamaşır deterjanını kumaşın görünmeyen bir yerinde deneyip lekeye sürün. Kuru temizlemelik veya hassas süslemeli elbiseyi temizlemeciye gösterin.',
     [towel, laundry], [liquidWash],
     [
-      ['Dış kumaşı ve astarı kontrol edin', 'Yalnızca en hassas katın izin verdiği yöntemle ilerleyin.'],
-      ['Astarı koruyun', 'Katları zorlamadan araya kâğıt havlu koyun ve üstteki yağı tamponlayın.'],
-      ['Deterjanı giysinin iç yüzünde deneyin', 'Elbisenin dışarıdan görünmeyen küçük bir yerinde deterjanı deneyin. Renk ve doku değişmezse ambalajdaki talimata göre sadece lekeli kata sürün.'],
+      ['Dış kumaşı ve astarı kontrol edin', 'Dış kumaş veya astar yalnızca kuru temizlemeye uygunsa lekeye evde su ya da deterjan sürmeyin.'],
+      ['Astarı koruyun', 'Lekenin diğer katlara sızmamaması için lekenin arkasına bir parça kâğıt havlu koyun ve üstteki yağı da yine bir kağıt havlu ile tamponlayın.'],
+      ['Deterjanı giysinin iç yüzünde deneyin', 'Elbisenin dışarıdan görünmeyen küçük bir yerinde bulaşık detarjanı veya varsa leke çıkarıcı deterjanızı deneyin. Renk ve doku değişmezse ambalajdaki talimata göre sadece lekeli kata sürün.'],
       ['Elbisenin programıyla yıkayın', 'Çamaşır deterjanıyla etikete göre yıkayın. Elbisenin izin verdiği biçimde kurutup izi kontrol edin.']
     ],
     'Tek lekede tüm eteği ön işlemle ıslatmak yerine lekeli katı ayırın.',
     'Yalnız kuru temizleme etiketinde veya süslemelerin bakımı belirsizse ıslak ön işlem yapmayın.'
   ),
   'monttan-yag-lekesi': method(
-    'Teknik dış kumaşta yerel sıvı deterjan',
-    'Monttaki fazla yağı kâğıt havluyla alın. Su geçirmez montta, üretici izin veriyorsa lekeye az miktarda önerilen sıvı çamaşır deterjanını sürün. Dolgulu montlarda dolgunun bakım talimatına bakın.',
-    [towel, laundry], ['Üreticinin onayladığı sıvı çamaşır deterjanı'],
+    'Montun dış kumaşına göre yağ lekesini temizleme',
+    'Monttaki fazla yağı kâğıt havluyla alın. Kaplamasız ve evde yıkanabilen dış kumaşta yeni yağın fazlasını kuru mısır nişastasıyla alabilirsiniz. Kalan izde montun kumaşına uygun temizleyiciyi seçin.',
+    [towel, 'Yumuşak bez', laundry], ['İsteğe bağlı mısır nişastası', 'Kaplamasız pamuklu mont için elde bulaşık deterjanı', 'Su geçirmez mont için üreticinin önerdiği temizleyici'],
     [
-      ['Kaplamayı ve etiketi bulun', 'Su geçirmez membran veya özel kaplama varsa üreticinin bakım rehberini açın.'],
-      ['Yağı yaymadan kaldırın', 'Kâğıt havluyu bastırıp kaldırın. Kaplamayı sertçe fırçalamayın.'],
-      ['Onaylı sıvı deterjanı lekeye uygulayın', 'Yalnızca üretici noktasal ön işleme izin veriyorsa dış kumaşa az miktarda sürün.'],
-      ['Üreticinin programını kullanın', 'Yıkama ve durulama ayarlarını montun talimatından seçin. Leke kalırsa yeni bir kimyasal eklemeden önce üreticiye danışın.']
+      ['Bakım etiketine bakın', 'Montun evde yıkanıp yıkanamayacağını kontrol edin. Su geçirmez montta üreticinin talimatını, dolgulu montta şişme mont rehberini izleyin.'],
+      ['Fazla yağı kâğıt havluyla alın', 'Kâğıt havluyu lekeye hafifçe bastırıp kaldırın. Kaplamasız, evde yıkanabilen kumaşta yeni leke hâlâ yağlıysa ince bir kat kuru mısır nişastası serpin. Yağı emen tozu nazikçe alın.'],
+      ['Kalan izi kumaşa uygun ürünle temizleyin', 'Yıkanabilen kaplamasız pamukta elde bulaşık deterjanını görünmeyen bir yerde deneyin. Renk değişmezse lekeye birkaç damla sürüp köpüğü tamamen durulayın. Diğer montlarda etikette önerilen sıvı temizleyiciyi kullanın.'],
+      ['Etikete göre yıkayın ve kurutun', 'Yıkama ve kurutma ayarlarını bakım etiketine göre seçin. Mont kuruyunca izi kontrol edin.']
     ],
-    'Örneğin GORE-TEX bazı lekelerde yerel sıvı deterjan önerir. Kendi montunuzun bakım kılavuzu önceliklidir.',
-    'GORE-TEX bakımında toz deterjan, yumuşatıcı, klorlu ağartıcı veya genel amaçlı leke çıkarıcı kullanmayın.'
+    'Beklemiş veya yıkamadan sonra kalmış yağ izinde nişasta adımını atlayın.',
+    'Montun dış yüzeyini sertçe fırçalamayın. Su itici kaplamalı veya özel bakım isteyen kumaşlarda nişasta kullanmayın.'
   ),
   'sisme-monttan-yag-lekesi': method(
-    'Dolguya özel yıkama',
-    'Şişme monttaki yağı kâğıt havluyla hafifçe alın. Mont yıkanabiliyorsa kuş tüyü veya sentetik dolgu için üreticinin önerdiği yıkama sıvısını ve kurutma ayarını kullanın.',
-    [towel, 'Üreticinin izin verdiği tipte çamaşır makinesi'], ['Dolgu tipine uygun, üreticinin önerdiği yıkama sıvısı'],
+    'Şişme montta dış kumaştaki yağ lekesini temizleme',
+    'Şişme monttaki fazla yağı kâğıt havluyla alın. Küçük izlerde montun bakım talimatı izin veriyorsa dış kumaşı temizleyin ve dolguyu ıslatmayın. Montun tamamı yıkanacaksa dolguya uygun temizleyici ve kurutma ayarı kullanın.',
+    [towel, 'Temiz, yumuşak bez'], ['Montun bakım talimatına uygun temizleyici', 'Uygun dış kumaşta isteğe bağlı mısır nişastası'],
     [
-      ['Dolgu türünü doğrulayın', 'Bakım etiketinden kuş tüyü veya sentetik dolguyu ve evde yıkama iznini kontrol edin.'],
-      ['Dış kumaştaki fazlalığı emdirin', 'Kâğıt havluyla bastırıp kaldırın. Bölgeyi suya doyurmayın.'],
-      ['Dolguya özel sıvıyla yıkayın', 'Montun talimatı izin veriyorsa önerilen yıkama sıvısını belirtilen doz ve programla kullanın.'],
-      ['Dolgunun tamamen kurumasını sağlayın', 'Leke hâlâ görünüyorsa art arda güçlü ürün denemeyin. Üreticiden yağ bulaşmış mont için kurutma talimatı alın. Dolguyu nemli bırakmayın.']
+      ['Dolgu türünü ve bakım etiketini kontrol edin', 'Dolgunun kuş tüyü mü sentetik mi olduğuna bakın. Montun evde nasıl temizlenip kurutulacağını etiketten kontrol edin.'],
+      ['Dış kumaştaki fazla yağı alın', 'Kâğıt havluyu lekeye hafifçe bastırıp kaldırın. Yeni ve küçük bir lekede, kaplamasız dış kumaşın bakım talimatı kuru tozla temizliğe izin veriyorsa ince bir kat mısır nişastası serpin. Yağı emen tozu nazikçe alın.'],
+      ['Kalan izi dolguyu ıslatmadan temizleyin', 'Üreticinin önerdiği temizleyiciyi bakım talimatı izin veriyorsa sadece lekeli bölgeye sürün. Kalıntıyı hafif nemli bir bezle alın.'],
+      ['Montu bakım etiketine göre kurutun', 'Montun tamamını yıkamak gerekiyorsa dolguya uygun temizleyiciyi ve etiketteki programı kullanın. Sonrasında dolgunun tamamen kuruduğundan emin olun.']
     ],
-    'Makine türü, durulama ve kurutma ayarlarını birlikte kontrol edin. Dolgu bakımında bunlar da leke ürünü kadar önemlidir.',
-    'Üretici yasaklıyorsa yumuşatıcı ve ağartıcı eklemeyin. Belirsiz bakım etiketinde evde denemeyi durdurun.'
+    'Yağ dolguya kadar geçtiyse montun tamamı için verilen yıkama ve kurutma talimatını izleyin.',
+    'Su itici kaplamalı veya hassas dış kumaşta nişasta kullanmayın. Temizleyici uygularken dolguyu ıslatmayın.'
   ),
   'esofmandan-yag-lekesi': method(
     'Esnek kumaş için noktasal sıvı ön işlem',
