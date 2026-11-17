@@ -33,7 +33,7 @@
 
 .guide-detail-steps {
   list-style: none;
-  margin: clamp(8px, 1vw, 14px) 0 0;
+  margin: clamp(14px, 1.2vw, 18px) 0 0;
   padding: 0;
 }
 
@@ -45,10 +45,7 @@
 }
 
 .guide-detail-step { padding-block: clamp(16px, 2.5vw, 32px); }
-.guide-detail-step:first-child {
-  align-items: start;
-  padding-block-start: 0;
-}
+.guide-detail-step:first-child { padding-block: 0 clamp(16px, 2vw, 24px); }
 .guide-detail-step + .guide-detail-step { border-top: 1px solid var(--guide-detail-rule); }
 .guide-detail-prep-visual { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .guide-detail-figure { margin: 0; }
