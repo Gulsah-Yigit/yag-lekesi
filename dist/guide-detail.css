@@ -1,6 +1,6 @@
 .knowledge-card > .guide-article {
   --guide-detail-ink: #152d46;
-  --guide-detail-muted: #5b605f;
+  --guide-detail-muted: #626262;
   --guide-detail-rule: #dcdedb;
   padding: clamp(18px, 3.6vw, 44px);
   background: #fcf9f5;
@@ -8,31 +8,32 @@
 }
 
 .guide-article .guide-detail-header h4 {
-  margin: 0 0 12px;
+  margin: 0;
   color: var(--guide-detail-ink);
-  font-size: clamp(23px, 2.7vw, 36px);
-  font-weight: 800;
-  line-height: 1.16;
-  letter-spacing: -.045em;
+  font-size: clamp(21px, 2.35vw, 27px);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -.035em;
 }
 
 .guide-article h5 {
-  margin: 0 0 8px;
+  margin: 0 0 6px;
   color: var(--guide-detail-ink);
-  font-size: clamp(17px, 1.65vw, 23px);
+  font-size: clamp(16px, 1.7vw, 19px);
+  font-weight: 700;
   line-height: 1.3;
 }
 
 .guide-article p, .guide-detail-supplies li {
   margin: 0;
   color: var(--guide-detail-muted);
-  font-size: clamp(14px, 1.3vw, 17px);
-  line-height: 1.65;
+  font-size: 15px;
+  line-height: 1.6;
 }
 
 .guide-detail-steps {
   list-style: none;
-  margin: 8px 0 0;
+  margin: clamp(8px, 1vw, 14px) 0 0;
   padding: 0;
 }
 
@@ -44,6 +45,10 @@
 }
 
 .guide-detail-step { padding-block: clamp(16px, 2.5vw, 32px); }
+.guide-detail-step:first-child {
+  align-items: start;
+  padding-block-start: 0;
+}
 .guide-detail-step + .guide-detail-step { border-top: 1px solid var(--guide-detail-rule); }
 .guide-detail-prep-visual { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .guide-detail-figure { margin: 0; }
