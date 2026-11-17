@@ -183,17 +183,17 @@ export const methods = {
     'Karbonatı ancak koltuğun bakım kılavuzu özellikle öneriyorsa kullanın. Derinin türü veya bakım talimatı belirsizse fazla yağı kuru bezle almakla yetinin.'
   ),
   'tul-perdeden-yag-lekesi': method(
-    'Yıkanabilir tülü filede yıkama',
-    'Yıkanabilir tül perdede lekenin altına kâğıt havlu koyun, üzerindeki yağı başka bir havluyla alın. Tüle uygun leke ürününü önce alt kenarda deneyin, ardından perdeyi bakım etiketine göre yıkayın.',
-    ['Yıkama filesi', laundry, towel], ['Tülün lifine uygun hafif sıvı ön işlem ürünü', 'Hassas kumaş için sıvı çamaşır deterjanı'],
+    'Tül perdede fazla yağı alma ve etikete göre yıkama',
+    'Tül perdeye yağ sıçradıysa lekenin altına kâğıt havlu koyup fazla yağı üstten hafifçe bastırarak alın. Evde yıkanabilen tülde, lekeye sürülebilen sıvı çamaşır deterjanını veya çamaşıra uygun seyreltilmiş sıvı Arap sabununu alt kenarda deneyin. Ardından durulayıp perdeyi etiketine göre yıkayın.',
+    [towel, 'Makineye uygunsa yıkama filesi'], ['Lekeye sürülebilen hassas çamaşır deterjanı', 'Alternatif olarak çamaşıra uygun sıvı Arap sabunu', water],
     [
-      ['Yıkama iznini kontrol edin', 'Yıkanabilir tülü çıkarın ve kancalarını sökün. Yıkama izni yoksa profesyonel bakım alın.'],
-      ['Katları birbirinden ayırın', 'Lekenin altına kâğıt havlu koyun. İkinci bir kâğıt havluyla yüzeydeki yağı emdirin.'],
-      ['Sıvıyı tülün kenarında deneyin', 'Test uygunsa ön işlem sıvısını tarif edilen doz ve süreyle yağ izine uygulayın.'],
-      ['Fileye alıp yıkayın', 'Tülü yıkama filesine koyup hassas kumaş deterjanı ve etiketteki programla yıkayın.']
+      ['Bakım etiketine bakın, kancaları çıkarın', 'Perdenin evde yıkanıp yıkanamayacağını ve yıkama sıcaklığını etiketten kontrol edin. Çıkarılabilen kancaları sökün.'],
+      ['Fazla yağı kâğıt havluyla alın', 'Tülü düz bir yere serip lekenin altına kâğıt havlu koyun. Üstten başka bir havluyla hafifçe bastırıp kaldırın. Tülü ovalamayın.'],
+      ['Yağ izine sıvı deterjan veya Arap sabunu uygulayın', 'Lekeye sürülebilen sıvı çamaşır deterjanını alt kenarda deneyin. Çamaşıra uygun sıvı Arap sabununu da ambalajında önerilen oranda suyla karıştırıp deneyebilirsiniz. Renk veya doku değişmezse seçtiğiniz üründen az miktarda lekeye uygulayın.'],
+      ['Durulayıp etikete göre yıkayın', 'Lekeli bölgedeki kalıntıyı temiz suyla durulayın. Makinede yıkamaya izin varsa tülü fileye koyup etiketindeki programı seçin.']
     ],
-    'Kurumadan önce tülü açıp kıvrımların arasında kalan yağ izini kontrol edin.',
-    'Tülü sertçe fırçalamayın. Renk ve lif uyumu belirsizse ağartıcı kullanmayın.'
+    'Tülü kurumaya bırakmadan önce açıp yağ izi kalıp kalmadığını kontrol edin.',
+    'Yağ lekesine tuz serpmeyin. Çamaşır sodasını yalnızca perde üreticisi öneriyorsa kullanın. Yalnızca kuru temizlemelik tül için bakım etiketindeki yöntemi izleyin.'
   ),
   'duvardan-yag-lekesi': method(
     'Silinebilir mutfak boyasında hafif sabunlu su',
