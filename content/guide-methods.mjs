@@ -54,10 +54,10 @@ export const methods = {
   ),
   'gomlekten-yag-lekesi': method(
     'Pamuklu gömlekte yeni oluşan yağ lekesi',
-    'Pamuklu gömleğin etiketi yıkamaya izin veriyorsa, fazla yağı kâğıt havluyla alın. Yemekten kalan yeni bir yağ lekesinde, gömleğin iç yüzünde denedikten sonra birkaç damla elde bulaşık deterjanı sürün. Köpüğü iyice durulayıp gömleği bakım etiketine göre yıkayın. İpek gömlekte ipeğe özel bakım talimatını izleyin.',
-    [towel, laundry], [dish, water, wash],
+    'Gömleğe yemek yağı damladıysa fazlasını kâğıt havluyla alın. Evde yıkanabilen pamuklu gömlekte, yüzeyde hâlâ yağ varsa mısır nişastası veya karbonat fazlasını emebilir. Kalan ize birkaç damla elde bulaşık deterjanı sürün, köpüğü tamamen durulayın ve gömleği etiketine göre yıkayın.',
+    [towel, laundry], [dish, water, wash, 'İsteğe bağlı mısır nişastası veya karbonat'],
     [
-      ['Lekeyi arka kata geçirmeyin', 'Gömleği açın. Lekenin altına kâğıt havlu yerleştirip üstteki yağı ikinci bir kâğıt havluyla alın.'],
+      ['Fazla yağı kâğıt havluyla alın', 'Lekenin altına kâğıt havlu koyun. Üstten başka bir havluyla hafifçe bastırarak yağı alın. Kumaşı ovalamayın. Evde yıkanabilen pamuklu gömlekte hâlâ fazla yağ varsa biraz mısır nişastası veya karbonat serpebilirsiniz. Toz yağı emince nazikçe alın.'],
       ['Bulaşık deterjanını gömleğin iç yüzünde deneyin', 'Yıkanabilen pamuklu gömlekte, yemekten kalan yeni bir iz için deterjanı önce gömleğin alt kenarının iç yüzünde deneyin. Renk ve doku değişmiyorsa birkaç damlayı lekeye yayın. Yaka veya manşeti fırçalamayın.'],
       ['Köpüğü durulayın', 'Lekeli alanı bakım etiketine uygun sıcaklıkta suyla iyice durulayın.'],
       ['Normal yıkamaya geçin', 'Gömleği çamaşır deterjanıyla etikete göre yıkayın. Ütülemeden önce manşet ve yaka dahil lekeli yeri kontrol edin.']
