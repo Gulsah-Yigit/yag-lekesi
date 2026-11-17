@@ -157,17 +157,17 @@ export const methods = {
     'Yün, ipek, el dokuması veya sulu temizliği onaylanmamış halıda bu karışımı uygulamayın. Beze renk geçerse durun.'
   ),
   'koltuktan-yag-lekesi': method(
-    'Yıkanabilir kılıf ve sabit döşeme için ayrı yol',
-    'Koltuktaki fazla yağı kâğıt havluyla hafifçe alın. Kılıfın etiketi yıkamaya izin veriyorsa kılıfı çıkarıp talimata göre yıkayın. Sabit döşemede üreticinin izin verdiği temizleyiciyi önce görünmeyen bir yerde deneyin.',
-    [towel, 'Sabit döşeme için iki temiz beyaz bez', laundry], ['Yıkanabilir kılıf için yağ lekesi ön işlem spreyi ve çamaşır deterjanı', 'Sabit döşeme için kumaş türüne ve yağ lekesine uygun döşeme köpüğü'],
+    'Kumaş koltukta fazla yağı alma ve hafif deterjanlı su',
+    'Kumaş koltuğa yağ döküldüğünde fazlasını kuru beyaz bezle alın. Üretici hafif deterjanlı suya izin veriyorsa 240 ml ılık suya çeyrek çay kaşığı sıvı elde bulaşık deterjanı ekleyin. Karışımı bezle lekeye uygulayın ve kalıntıyı temiz, nemli bir bezle alın.',
+    ['Temiz beyaz bezler', 'Küçük kap', 'Ölçü kaşığı'], [dish, '240 ml ılık su', 'Kalıntıyı almak için temiz su'],
     [
-      ['Kılıfın bakım talimatını bulun', 'Fermuarın açılması yıkama izni anlamına gelmez. Üretici kılıfın yıkanmasına izin veriyorsa çıkarın.'],
-      ['Yağı emdirin', 'Baskısız kâğıt havluyla bastırıp kaldırın. Döşemeyi ovalamayın.'],
-      ['Kılıf veya döşeme yolunu seçin', 'Yıkanabilir kılıfta gizli nokta testinden sonra yağ lekesi spreyini kullanıp deterjanla etikete göre yıkayın. Sabit döşemede köpüğü önce arka alt köşede deneyin ve kuruyunca kontrol edin.'],
-      ['Sabit döşemeyi tamponlayıp kurutun', 'Köpük testi uygunsa ambalaj izin verdiğinde köpüğü beyaz beze alın ve kenardan ortaya tamponlayın. Ürünün tarif ettiği kalıntı temizliğini ikinci bezle yapın.']
+      ['Fazla yağı alın ve bakım etiketine bakın', 'Kuru beyaz bezi lekeye hafifçe bastırıp kaldırın. Kumaşı ovalamayın. Minderin altındaki etikette veya koltuğun bakım kılavuzunda deterjanlı suya izin verilip verilmediğine bakın.'],
+      ['Karışımı hazırlayıp görünmeyen bir yerde deneyin', 'Bakım talimatı izin veriyorsa 240 ml ılık suya çeyrek çay kaşığı renksiz, ağartıcısız sıvı elde bulaşık deterjanı ekleyin. Karışımı minderin arka alt köşesinde deneyip kurumasını bekleyin.'],
+      ['Lekeyi beyaz bezle temizleyin', 'Renk veya doku değişmediyse beyaz bezi karışımla hafifçe nemlendirin. Lekenin kenarından ortasına doğru bezi bastırıp kaldırın. Karışımı koltuğa dökmeyin.'],
+      ['Deterjan kalıntısını alıp kurutun', 'Kalıntıyı temiz suyla nemlendirilmiş, iyice sıkılmış bezle alın. Ardından kuru bezle fazla nemi alıp koltuğu havalandırın.']
     ],
-    'Döşeme kuruyunca eğik ışıkta yağ izi ve su halkasını ayrı ayrı kontrol edin.',
-    'Keten, kadife veya yalnız profesyonel temizliğe uygun döşemede bu yöntemi genellemeyin. Dolguyu ıslatmayın.'
+    'Kılıfı ancak bakım etiketi yıkamaya izin veriyorsa çıkarıp yıkayın.',
+    'Etiket suyla temizliğe izin vermiyorsa ya da bakım bilgisine ulaşamıyorsanız fazla yağı kuru bezle alın. Deri ve yalnızca kuru temizlemelik döşemede bu karışımı uygulamayın.'
   ),
   'deri-koltuktan-yag-lekesi': method(
     'Deri kaplamasına özel temizleyici',
