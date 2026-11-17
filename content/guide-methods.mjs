@@ -71,25 +71,25 @@ export const methods = {
     [towel, laundry], [liquidWash],
     [
       ['Fazla yağı kâğıt havluyla alın', 'Kâğıt havluyu lekeye hafifçe bastırıp kaldırın. Kumaşı ovalamadan fazla yağı alın.'],
-      ['Deterjanı görünmeyen bir yerde deneyin', 'Tişört evde yıkanabiliyorsa lekeye sürülebilen sıvı çamaşır deterjanını önce alt kenarın iç yüzünde deneyin. Renk veya doku değişirse ürünü kullanmayın.'],
-      ['Deterjanı yağ lekesine sürün', 'Renk ve doku değişmediyse lekeye az miktarda deterjan sürün. Ne kadar bekleteceğinize ambalajdan bakın.'],
+      ['Deterjanı görünmeyen bir yerde deneyin', 'Tişört evde yıkanabiliyorsa bir miktar bulaşık deterjanı ya da kumaşın rengine uygun sıvı çamaşır deterjanını tişörtün görünmeyen bir noktasında test edin.'],
+      ['Deterjanı yağ lekesine sürün', 'Renk ve doku değişmediyse lekeye az miktarda bulaşık veya çamaşır deterjanını sürün. Yaklaşık 10-15 dakika bekletin.'],
       ['Yıkayın ve kuruyunca kontrol edin', 'Tişörtü bakım etiketine göre yıkayıp havada kurutun. İz kaldıysa işlemi tekrarlayın. Leke çıkmadan ütü veya kurutucu kullanmayın.']
     ],
     'Yağın tişörtün arkasına geçmemesi için lekenin altına kuru kâğıt havlu koyabilirsiniz.',
     'Leke baskının üzerindeyse baskıyı ovalamayın. Ambalajında baskılı kumaşa uygun olduğu belirtilen bir ürün kullanın.'
   ),
   'beyaz-kiyafetten-yag-lekesi': method(
-    'Yağa yönelik sprey, gerekiyorsa oksijenli toz',
-    'Yıkanabilir beyaz tişört veya gömlekte yağı kâğıt havluyla alın. Yağ lekesine uygun çamaşır spreyini önce görünmeyen bir yerde deneyin, sonra giysiyi etiketine göre yıkayın. Sosun rengi kalırsa ağartıcı kullanmadan önce iki etiketi de okuyun.',
-    [towel, laundry, 'Oksijenli toz kullanılacaksa ürünün ölçeği'], ['Yağ lekesine uygun çamaşır ön işlem spreyi', wash, 'İsteğe bağlı oksijen bazlı toz leke çıkarıcı'],
+    'Beyaz pamukluda toz çamaşır deterjanı ve su',
+    'Evde yıkanabilen beyaz pamuklu giyside fazla yağı kâğıt havluyla alın. Az miktarda toz çamaşır deterjanını suyla karıştırıp görünmeyen bir yerde deneyin. İnce bir kat hâlinde lekeye sürün ve bakım etiketine göre yıkayın.',
+    [towel, laundry], ['Toz çamaşır deterjanı', water],
     [
-      ['Ağartma işaretine bakın', 'Beyaz renkten bağımsız olarak kumaş, baskı ve elastik detayların bakım talimatını kontrol edin.'],
-      ['Yağ fazlasını emdirin', 'Kâğıt havluyla bastırıp kaldırın. Lekeyi büyütmeyin.'],
-      ['Yağ lekesi spreyini uygulayın', 'Gizli bir alanda test edin. Spreyin ambalajındaki bekleme süresine uyup çamaşır deterjanıyla yıkayın.'],
-      ['Yağ iziyle sos rengini ayırın', 'Yağ azaldığı hâlde sos rengi kalırsa sonraki yıkamada oksijenli tozu kendi ölçeği ve dozuyla kullanmayı değerlendirin.']
+      ['Bakım etiketine bakın', 'Bu yöntemi evde yıkanabilen beyaz pamuklu giysilerde uygulayın. Yıkama sıcaklığını etiketten kontrol edin.'],
+      ['Fazla yağı kâğıt havluyla alın', 'Havluyu lekeye hafifçe bastırıp kaldırın. Kumaşı ovalamayın.'],
+      ['Toz deterjanı az suyla karıştırın', 'Az miktarda toz çamaşır deterjanına azar azar su ekleyip sürülebilir bir kıvam elde edin. Karışımı görünmeyen küçük bir yerde deneyin. Kumaş değişmezse lekeye ince bir kat sürün ve ambalajdaki uygulama talimatını izleyin.'],
+      ['Yıkayın ve kuruyunca kontrol edin', 'Giysiyi bakım etiketine göre yıkayıp havada kurutun. İz kaldıysa işlemi tekrarlayın. Leke çıkmadan ütü veya kurutucu kullanmayın.']
     ],
-    'Oksijenli tozun nereye ekleneceğini ambalajdan okuyun. Her ürün deterjan gözüne konmaz.',
-    'Yün ve ipekte oksijenli toz kullanmayın. Klorlu çamaşır suyunu sirke veya başka temizleyicilerle karıştırmayın.'
+    'Yağ çıktıktan sonra kırmızı bir sos izi kaldıysa salçalı yağ lekesi rehberindeki adımlara bakın.',
+    'Bu karışımı yün, ipek veya yalnızca kuru temizlemelik giysilere uygulamayın. Karışıma çamaşır suyu eklemeyin.'
   ),
   'elbiseden-yag-lekesi': method(
     'Yıkanabilir elbise ve astarda sıvı deterjan',
