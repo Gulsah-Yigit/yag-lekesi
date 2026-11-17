@@ -9,7 +9,7 @@ export const guidePreparation = {
   'elbiseden-yag-lekesi': ['Elbisenin dış kumaşı ve astarı', 'Dış kumaşı astardan ayırın. Her iki kumaşın bakım talimatını kontrol edip yalnız lekeli kata uygulama yapın.'],
   'monttan-yag-lekesi': ['Montun iç yüzü ve dış kaplaması', 'Bakım etiketinden montun evde yıkanıp yıkanamayacağına bakın. Bir temizleyici kullanacaksanız önce dış kumaşın görünmeyen bir yerinde deneyin.'],
   'sisme-monttan-yag-lekesi': ['Şişme montun iç kısmı ve dolguya uygun temizleyici', 'Kâğıt havlu ve yumuşak bir bez hazırlayın. Üreticinin önerdiği temizleyiciyi kullanmadan önce dış kumaşın görünmeyen bir yerinde deneyin.'],
-  'esofmandan-yag-lekesi': ['Eşofman paçasının iç yüzü', 'Baskıya ve esnek liflere uygun bir ürün seçin. İlk denemeyi paçanın iç tarafında yapın.'],
+  'esofmandan-yag-lekesi': ['Eşofman paçasının iç yüzü', 'Deterjanı denemek için paçanın dışarıdan görünmeyen iç tarafını kullanın. Denediğiniz yerde kumaşın renginin veya dokusunun değişip değişmediğine bakın.'],
   'ipekten-yag-lekesi': ['İpek kumaş ve yumuşak beyaz bez', 'Bakım etiketi yalnızca kuru temizleme diyorsa evde ön işlem yapmayın. Uygulama yapacaksanız ipeği düz bir zemine serin.'],
   'yun-kazaktan-yag-lekesi': ['Havlu üstünde düz serili yün kazak', 'Kazağın yıkama işaretini kontrol edin. Yıkamaya izin veriliyorsa yüne uygun deterjan ve temiz bir havlu hazırlayın.'],
   'ketenden-yag-lekesi': ['Keten pantolonun paçasının iç yüzü', 'Kumaşın saf keten mi, karışım mı olduğunu etiketten kontrol edin. Ürünü denemek için paçanın iç tarafını kullanın.'],

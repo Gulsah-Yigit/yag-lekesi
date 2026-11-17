@@ -131,17 +131,17 @@ export const methods = {
     'Su itici kaplamalı veya hassas dış kumaşta nişasta kullanmayın. Temizleyici uygularken dolguyu ıslatmayın.'
   ),
   'esofmandan-yag-lekesi': method(
-    'Esnek kumaş için noktasal sıvı ön işlem',
-    'Yıkanabilir eşofmandaki yağı kâğıt havluyla alın. Yağ lekesine uygun sıvı leke çıkarıcıyı önce paçanın iç tarafında deneyin. Renk değişmezse lekeye uygulayıp etikete göre yıkayın.',
-    [towel, laundry], ['Sentetik veya esnek kumaşa uygun sıvı leke çıkarıcı', wash],
+    'Eşofmandaki yağ lekesini yıkamadan önce temizleme',
+    'Eşofmandaki fazla yağı kâğıt havluyla alın. Yağ kumaşa bulaştıysa sıvı çamaşır deterjanını önce paçanın iç tarafında deneyin. Leke logonun üzerindeyse deterjanı doğrudan sürmeden eşofmanı bakım etiketine göre yıkayın.',
+    [towel, laundry], [liquidWash],
     [
-      ['Esnek lif ve baskıyı kontrol edin', 'Leke logo üzerindeyse ürünün baskıya uygunluğunu doğrulayın.'],
-      ['Yağı kâğıt havluyla emdirin', 'Kumaşı gerip ovalamadan yağı alın.'],
-      ['Sıvıyı sadece izde kullanın', 'Paçanın iç tarafındaki denemede renk değişmediyse ürünü ambalajdaki süreyle kullanın. Kumaşı fırçalamayın.'],
-      ['Bakım etiketindeki programı seçin', 'Çamaşır deterjanıyla yıkayın. Etiket yumuşatıcıyı yasaklıyorsa ilgili gözü boş bırakın.']
+      ['Bakım etiketine bakın', 'Eşofmanın evde yıkanabildiğini ve hangi sıcaklıkta yıkanacağını etiketten kontrol edin.'],
+      ['Fazla yağı kâğıt havluyla alın', 'Havluyu lekeye hafifçe bastırıp kaldırın. Kumaşı ve logoyu ovalamayın.'],
+      ['Kumaştaki yağ izine deterjan sürün', 'Yağ logonun üzerindeyse 4. adıma geçin. Kumaştaysa lekeye sürülebilen sıvı çamaşır deterjanını önce paçanın içinde deneyin. Renk veya doku değişmezse lekeye birkaç damla sürün.'],
+      ['Ters çevirip etikete göre yıkayın', 'Eşofmanı ters çevirip bakım etiketine göre yıkayın. Havada kuruyunca izi kontrol edin. Leke çıkmadan ütü veya kurutucu kullanmayın.']
     ],
-    'Nem yönetimli spor kumaşlarında marka bakım talimatı genel eşofman önerisinden önce gelir.',
-    'Leke dururken yüksek ısıya geçmeyin. Baskı veya elastanla uyumu belirsiz ağartıcı uygulamayın.'
+    'Yağ kumaşın arka yüzüne geçmesin diye lekenin altına kuru kâğıt havlu koyabilirsiniz.',
+    'Leke logonun üzerindeyse fazla yağı kâğıt havluyla alıp eşofmanı etikete göre yıkayın. Logoya doğrudan deterjan veya leke çıkarıcı sürmeyin ve logoyu fırçalamayın.'
   ),
   'halidan-yag-lekesi': method(
     'Suyla temizlenebilen halıda ölçülü çözelti',
