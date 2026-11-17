@@ -196,95 +196,95 @@ export const methods = {
     'Yağ lekesine tuz serpmeyin. Çamaşır sodasını yalnızca perde üreticisi öneriyorsa kullanın. Yalnızca kuru temizlemelik tül için bakım etiketindeki yöntemi izleyin.'
   ),
   'duvardan-yag-lekesi': method(
-    'Silinebilir mutfak boyasında hafif sabunlu su',
-    'Silinebilir duvardaki yağ lekesi için ılık suya birkaç damla elde bulaşık deterjanı ekleyin. Yumuşak bezi karışıma batırıp iyice sıkın, önce gözden uzak bir yerde deneyin. Lekeyi hafifçe silin ve kalıntıyı temiz, nemli bezle alın.',
-    ['Küçük kap', 'İki yumuşak mikrofiber bez'], [dish, 'Ilık su'],
+    'Silinebilir duvardaki yağ lekesini deterjanlı bezle alma',
+    'Silinebilir duvardaki yağ lekesi için ılık suya birkaç damla elde bulaşık deterjanı ekleyin. Yumuşak bezi iyice sıkıp görünmeyen küçük bir yerde deneyin. Lekeyi nazikçe silin, ardından deterjan kalıntısını temiz, nemli bezle alın.',
+    ['Küçük kap', 'İki yumuşak bez'], [dish, 'Ilık su'],
     [
-      ['Duvar boyasının silinebilirliğini kontrol edin', 'Mutfak duvarındaki yağ lekesine müdahale etmeden önce boyanın bakım talimatına bakın. Boya yeniyse üreticinin belirttiği süreyi bekleyin. Silinemeyen mat boyada bu ıslak yöntemi uygulamayın.'],
-      ['Sabunlu suyu bezle deneyin', 'Ilık suya birkaç damla deterjan ekleyin. Bezi iyice sıkıp görünmeyen noktada test edin.'],
-      ['Yağ damlalarını hafifçe silin', 'Küçük alanlarda çalışın ve sıvının duvardan akmasına izin vermeyin.'],
-      ['Sabun kalıntısını giderin', 'İkinci bezi temiz suyla hafif nemlendirip kalıntıyı alın. Bezin kuru kısmıyla yüzeyi kurulayın.']
+      ['Duvarın silinebilir olduğunu kontrol edin', 'Boyanın bakım talimatına bakın. Yeni boyanan duvarı, boya üreticisinin belirttiği süre dolunca temizleyin.'],
+      ['Ilık suya birkaç damla bulaşık deterjanı ekleyin', 'Yumuşak bezi karışıma batırıp iyice sıkın. Önce mobilya arkasında ya da görünmeyen küçük bir köşede deneyin.'],
+      ['Yağ izini hafifçe silin', 'Beze boya geçmiyorsa az nemle, küçük alanlar hâlinde çalışın. Kurumuş sıçramayı nemli bezle hafifçe yumuşatıp yeniden silin.'],
+      ['Deterjan kalıntısını alıp kurulayın', 'Temiz suyla nemlendirdiğiniz ikinci bezi iyice sıkıp kalıntıyı alın. Ardından yumuşak bir bezle kurulayın.']
     ],
-    'Alan kuruduğunda parlaklığı çevresindeki boyayla karşılaştırın.',
-    'Beze boya geçerse durun. Mat boyada karbonat macunu, sert sünger ve güçlü yağ çözücü parlak iz bırakabilir.'
+    'Duvar tamamen kuruduğunda leke ve parlaklık farkı olup olmadığına bakın.',
+    'Beze boya geçerse durun. Silinemeyen boyada ıslak uygulamadan kaçının. Mat duvarda sert sünger veya karbonatla ovalamak iz bırakabilir.'
   ),
   'fayanstan-yag-lekesi': method(
-    'Seramikte nötr temizleyici, derzde hedefli işlem',
-    'Fayanstaki yağı yumuşak bezle alın ve seramiğe uygun hafif bir temizleyiciyle silin. Yağ derz aralarında kaldıysa derze uygun ürünü önce küçük bir noktada deneyin. Yüzeyi durulayıp kurulayın.',
-    ['Yumuşak sünger', cloth, 'Kap'], ['Nötr pH’lı seramik temizleyicisi', water, 'Gerekirse derz türüne uygun yağ giderici derz temizleyicisi'],
+    'Kurumuş fayans yağını ılık bezle yumuşatma',
+    'Kurumuş yağ lekesini, silinebilir seramik veya porselen fayansta ılık deterjanlı bezle yumuşatın. Yumuşak süngerle silin, temiz suyla kalıntıyı alın ve kurulayın. Yağ derzde kaldıysa derzin bakım talimatına göre ilerleyin.',
+    ['Yumuşak bez veya sünger', 'Küçük kap', 'Derz için yumuşak diş fırçası'], [dish, 'Ilık su', 'Derz üreticisi izin veriyorsa karbonat'],
     [
-      ['Taş mı seramik mi ayırın', 'Mermer ve kireç taşında doğal taşa özel nötr ürün gerekir. Seramik reçetesini taşta uygulamayın.'],
-      ['Nötr temizleyiciyi hazırlayın', 'Ürün konsantreyse ambalajda verilen oranla seyreltin ve küçük bir alanda deneyin.'],
-      ['Fayansı süngerle silin', 'Yağı süngerin temiz yüzüyle alın, ardından nemli bezle kalıntıyı giderin.'],
-      ['Derzi kuruyunca kontrol edin', 'Yağ derzde kaldıysa derz temizleyicisini kendi talimatıyla ve ayrı bir işlem olarak uygulayın.']
+      ['Fayansın malzemesine bakın', 'Bu adımlar, hafif deterjanlı suyla temizlenebilen seramik veya porselen içindir. Mermer ve diğer doğal taşlar için kendi bakım talimatını izleyin.'],
+      ['Kurumuş yağı ılık bezle yumuşatın', 'Ilık suya birkaç damla elde bulaşık deterjanı ekleyin. Yumuşak bezi sıkıp görünmeyen bir yerde deneyin. Kurumuş yağın üzerinde birkaç dakika tutun.'],
+      ['Yağı yumuşak süngerle silin', 'Süngerin yumuşak yüzüyle yağı alın. Temiz, nemli bezle deterjan kalıntısını silin. Yer fayansıysa kayganlık kalmaması için kurulayın.'],
+      ['Derzde kalan izi hafifçe temizleyin', 'Derz üreticisi izin veriyorsa biraz karbonatı suyla karıştırın. Küçük bir noktada deneyip karışımı yalnızca derz çizgisine yumuşak diş fırçasıyla uygulayın. Ardından suyla kalıntıyı alıp kurulayın.']
     ],
-    'Temizleyici alırken seramik, porselen veya derz uyumunu ambalajda ayrı ayrı arayın.',
-    'Mermer ve kireç taşına sirke sürmeyin. Ürünleri karıştırmayın.'
+    'Yağ derze geçmediyse dördüncü adımı atlayabilirsiniz.',
+    'Parlak veya sırlı fayansı kuru karbonat, sert sünger ya da telle ovalamayın. Doğal taşta sirke ve limon kullanmayın.'
   ),
   'mutfak-dolabindan-yag-lekesi': method(
-    'Kaplamayı ıslatmadan sabunlu bez',
-    'Mutfak dolabındaki yağ lekesini kapağın malzemesine uygun temizleyici ve iyice sıkılmış bezle silin. Kapağı küçük alanlar hâlinde temizleyip hemen kurulayın. Su ve temizleyicinin kenarlara işlemesini önleyin.',
-    ['Yumuşak temizlik bezi', 'Durulama ve kurulama için ikinci bez', 'Kap'], [dish, 'Ilık su'],
+    'Dolap kapağındaki yağı az nemli bezle alma',
+    'Silinmeye uygun mutfak dolabındaki yağ lekesi için ılık suya birkaç damla elde bulaşık deterjanı ekleyin. Bezi iyice sıkıp kapağı nazikçe silin. Deterjan kalıntısını alın ve kapağın kenarlarını hemen kurulayın.',
+    ['Küçük kap', 'Yumuşak bezler'], [dish, 'Ilık su'],
     [
-      ['Kapağın kaplamasını doğrulayın', 'Lake, laminat, masif ahşap ve yağlı kaplama için üretici talimatı değişebilir.'],
-      ['Sabunlu suyu beze alın', 'Ilık suya birkaç damla bulaşık deterjanı ekleyin. Bezi sıkıp kapağın iç tarafında deneyin.'],
-      ['Yağı kapaktan kaldırın', 'Özellikle kulp çevresinde az nemle çalışın. Kapağa doğrudan sıvı püskürtmeyin.'],
-      ['Kalıntıyı ve nemi alın', 'İkinci bezin nemli kısmıyla sabunu, kuru kısmıyla kenar ve birleşimlerdeki suyu alın.']
+      ['Kapağın bakım talimatına bakın', 'Suya izin verildiğini kontrol edin. Kaplama konusunda emin değilseniz önce kapağın iç köşesinde küçük bir deneme yapın.'],
+      ['Deterjanlı suyu beze alın', 'Ilık suya birkaç damla elde bulaşık deterjanı karıştırın. Yumuşak bezi batırıp iyice sıkın. Karışımı doğrudan kapağa dökmeyin.'],
+      ['Kulp çevresindeki yağı silin', 'Az nemli bezle küçük alanlar hâlinde çalışın. Yapışkan iz kaldıysa bezi temizleyip aynı yeri bir kez daha silin.'],
+      ['Kalıntıyı alın ve kapağı hemen kurulayın', 'Temiz, hafif nemli bezle deterjan kalıntısını alın. Kuru bezle kapağı, kenarları ve birleşim yerlerini kurulayın.']
     ],
-    'Yemek hazırladığınız bezi kullanmayın. Üzerindeki yağ yeniden kapağa geçebilir.',
-    'Ahşap ve kaplama yüzeyde aşındırıcı sünger, yoğun yağ çözücü veya sirke kullanmadan önce üreticinin onayını arayın.'
+    'Yağı yeniden yüzeye taşımamak için bez yağlandıkça temiz bir yüzünü kullanın.',
+    'Sert sünger veya karbonatla ovalamak kaplamayı matlaştırabilir. Kapağın kenarlarına su biriktirmeyin.'
   ),
   'cam-ocaktan-yag-lekesi': method(
-    'Cam seramik ocak kremi',
-    'Cam ocak soğuduktan sonra yağın fazlasını yumuşak bezle alın. Kalan izi cam seramiğe uygun temizleyici ve çizmez bezle silin. Temizleyici kalıntısını kılavuzda tarif edildiği gibi giderin.',
-    [towel, 'Çizmez ocak pedi veya üreticinin önerdiği bez'], ['Cam seramik ocak temizleme kremi', water],
+    'Soğuk cam ocaktaki yağı yumuşak bezle alma',
+    'Cam ocak tamamen soğuduğunda fazla yağı kâğıt havluyla alın. Modelin kılavuzu izin veriyorsa kalan yağ izini ılık suya birkaç damla elde bulaşık deterjanı ekleyip yumuşak bezle silin. Temiz, nemli bezle kalıntıyı alın ve kurulayın.',
+    [towel, 'İki yumuşak bez'], ['Ilık su', 'Kılavuz izin veriyorsa sıvı elde bulaşık deterjanı'],
     [
-      ['Ocağı kapatıp soğutun', 'Artık ısı göstergesi söndükten ve yüzey soğuduktan sonra yağın fazlasını kâğıt havluyla alın.'],
-      ['Ocak kremini ölçülü uygulayın', 'Yalnızca modelin izin verdiği cam seramik kremini ambalajdaki miktarda kullanın.'],
-      ['Kremi çizmeden yayın', 'Üreticinin önerdiği bez veya çizmez pedle çalışın. Yapışmış parçayı metal telle kazımayın.'],
-      ['Yüzeyi parlatmadan önce kalıntıyı alın', 'Kremi kılavuzdaki şekilde giderin. Kılavuz nemli bez istiyorsa temiz su kullanın. Ocak yeniden kullanılmadan önce temiz ve kuru olmalı.']
+      ['Ocağı kapatıp tamamen soğutun', 'Artık ısı göstergesi sönüp cam soğuduğunda yağın fazlasını kâğıt havluyla alın.'],
+      ['Kalan izi ılık, nemli bezle silin', 'Yumuşak bezi ılık suyla nemlendirip sıkın. Modelin bakım kılavuzu izin veriyorsa suya birkaç damla elde bulaşık deterjanı ekleyin.'],
+      ['Yapışan izi nazikçe yumuşatın', 'Nemli bezi lekenin üzerinde kısa süre tutun, sonra hafifçe silin. Yanıp yapışmış kalıntı çıkmazsa modelin cam ocak için tarif ettiği yönteme geçin.'],
+      ['Kalıntıyı alın ve camı kurulayın', 'Temiz suyla nemlendirilmiş ayrı bir bezle deterjanı giderin. Ocağı yeniden açmadan önce camı yumuşak bezle kurulayın.']
     ],
-    'Kazıyıcı yalnızca model kılavuzunda belirtilen tip ve kullanım açısıyla değerlendirilebilir.',
-    'Fırın spreyi, çelik tel veya aşındırıcı toz cam seramik ocak kremi yerine kullanılmaz.'
+    'Kılavuzu bulmak için ocağın model numarasıyla üreticinin destek sayfasında arama yapabilirsiniz.',
+    'Cam ocakta çelik tel, sert sünger, kuru karbonat veya fırın spreyi kullanmayın.'
   ),
   'firindan-yag-lekesi': method(
-    'Fırının kaplamasına ve modeline göre temizlik',
-    'Fırın soğuduktan sonra çıkarılabilir rafları, kılavuz izin veriyorsa, ılık su ve bulaşık deterjanıyla yıkayın. Fırının içi için kılavuzda önerilen yöntemi kullanın. Ürünleri karıştırmayın.',
-    ['Yumuşak sünger', 'Temiz durulama bezi', 'Sprey kullanılırsa etiketin istediği koruyucu ekipman'], [dish, 'Ilık su', 'Sadece model izin veriyorsa fırın temizleyicisi'],
+    'Soğuk fırında deterjanlı su ve uygun yüzeyde karbonat',
+    'Fırın tamamen soğuduğunda yağlı rafları ılık su ve bulaşık deterjanıyla temizleyin. Fırının içindeki yapışmış izde, modelin bakım talimatı izin veriyorsa karbonat ve suyla hazırlanan macunu kullanabilirsiniz.',
+    ['Küçük kap', 'Yumuşak sünger', 'Temiz bez'], [dish, 'Ilık su', 'İç kaplama için izin veriliyorsa karbonat'],
     [
-      ['Fırını kapatıp soğutun', 'Soğuk fırında rafları kılavuz izin veriyorsa çıkarın. Conta ve rezistansın yerini belirleyin.'],
-      ['Raf yağını sabunlu suyla alın', 'Üretici izin veriyorsa rafları ılık su ve elde bulaşık deterjanıyla yumuşak süngerle temizleyip durulayın.'],
-      ['İç kaplama için kılavuza dönün', 'Sprey onaylıysa etiketin miktar, bekleme, havalandırma ve koruyucu ekipman talimatına uyun. Sprey yasaksa modelin temizleme programını veya tarif ettiği yöntemi izleyin.'],
-      ['Kalıntıyı kontrol edin', 'Temizleyiciyi etikette belirtilen şekilde giderin. Rafları kuruyunca yerine takın.']
+      ['Fırını kapatın ve soğumasını bekleyin', 'Fırın soğuyunca çıkarılabilen rafları alın. Yüzeydeki fazla yağı kâğıt havluyla kaldırın.'],
+      ['Rafları deterjanlı suda bekletin', 'Raflar elde yıkanabiliyorsa bir leğene ılık su ve biraz elde bulaşık deterjanı koyun. Yağ yumuşayınca süngerle silip durulayın.'],
+      ['İç kaplamada uygun yöntemi kullanın', 'Kılavuz karbonata izin veriyorsa bir miktar karbonata azar azar su ekleyip macun yapın. Sadece lekeli yere ince bir kat sürün. Yağ yumuşayınca nemli, yumuşak bezle alın.'],
+      ['Kalıntıyı temiz suyla alın ve kurulayın', 'Temiz, nemli bezle karbonat veya deterjan kalıntısını giderin. İç yüzeyi kurulayın ve kuruyan rafları yerlerine takın.']
     ],
-    'Katalitik veya kendini temizleyen kaplamalarda genel fırın spreyi talimatına göre hareket etmeyin.',
-    'Conta, fan ve rezistansa gelişigüzel temizleyici sürmeyin. Ürünleri birbirine karıştırmayın.'
+    'Katalitik kaplamada veya temizleme programı olan fırınlarda önce modelin kılavuzunda iç yüzey için verilen adımları izleyin.',
+    'Macunu rezistansa, fana, havalandırma deliklerine veya kapak contasına sürmeyin. Temizlik sırasında fırını çalıştırmayın.'
   ),
   'tavadan-yag-lekesi': method(
-    'Tava ve tencerede bulaşık deterjanı',
-    'Tava veya tencere soğuduktan sonra yağlı yüzeyi ılık su, elde bulaşık deterjanı ve yumuşak süngerle yıkayın. Yapışmış kalıntıyı, üretici izin veriyorsa, ılık deterjanlı suyla yumuşatın.',
-    ['Çizmez sünger', 'Yumuşak kurulama bezi'], [dish, 'Ilık su'],
+    'Tava ve tencerede ılık deterjanlı suyla yağı yumuşatma',
+    'Tava veya tencere soğuyunca ılık su, elde bulaşık deterjanı ve yumuşak süngerle yıkayın. Kalıntı yapıştıysa, kaplama izin veriyorsa önce ılık deterjanlı suyla yumuşatın.',
+    [towel, 'Çizmez sünger', 'Yumuşak kurulama bezi'], [dish, 'Ilık su', 'Kaplama izin veriyorsa karbonat'],
     [
-      ['Tava veya tencerenin soğumasını bekleyin', 'Sıcak tava veya tencereye soğuk su dökmeyin. Yıkamak için oda sıcaklığına gelmesini bekleyin.'],
-      ['Yağ filmini sabunlu süngerle alın', 'Süngerin yumuşak tarafına bulaşık deterjanı damlatın ve yüzeyi bastırmadan yıkayın.'],
-      ['Yapışmış kalıntıyı yumuşatın', 'Üretici izin veriyorsa tava veya tencerede ılık deterjanlı su bekletin, ardından yumuşak süngerle yeniden silin.'],
-      ['Durulayıp kurulayın', 'Köpüğü temiz suyla tamamen alın. Yumuşak bir bezle kurulayın.']
+      ['Tava veya tencerenin soğumasını bekleyin', 'Oda sıcaklığına gelmesini bekleyin. Yüzeyde birikmiş yağı kâğıt havluyla alın.'],
+      ['Yağı yumuşak süngerle yıkayın', 'Süngerin yumuşak tarafına birkaç damla elde bulaşık deterjanı koyun ve ılık suyla yıkayın.'],
+      ['Yapışan kalıntıyı önce yumuşatın', 'Kaplama uygunsa içinde ılık deterjanlı su bekletin, ardından yumuşak süngerle silin. Emaye kapta üretici öneriyorsa karbonatlı suyu deneyebilirsiniz.'],
+      ['Durulayın ve iyice kurulayın', 'Köpüğü temiz suyla tamamen alın. Yumuşak bir bezle kurulayın.']
     ],
-    'Yapışmaz kaplama, paslanmaz çelik ve döküm için kendi bakım talimatını izleyin.',
-    'Yapışmaz yüzeye metal tel veya fırın spreyi uygulamayın.'
+    'Kaplamasız döküm tavayı suda bekletmeyin ve yıkadıktan sonra hemen kurulayın.',
+    'Yapışmaz tavada metal tel, kuru karbonatla ovalama ve fırın spreyi kaplamaya zarar verebilir.'
   ),
   'aracta-yag-lekesi': method(
-    'Otomobil boyasında araç şampuanıyla ilk temizlik',
-    'Kaportadaki küçük yağ izini, yüzey soğukken araç şampuanı ve temiz mikrofiber bezle temizleyin. Yağ koltuğa bulaştıysa döşeme için üreticinin önerdiği yöntemi izleyin.',
-    ['Kova', 'Yumuşak yıkama eldiveni', 'Kurulama için mikrofiber bez'], ['Araç şampuanı', water, 'Gerekirse otomobil boyasına ve yağ izine uygun noktasal temizleyici'],
+    'Kaportadaki yeni yağı su ve yumuşak bezle alma',
+    'Araç kaportasındaki yeni yağ izinde aracı gölgeye çekin. Boya soğuyunca yüzeyi suyla durulayıp gevşek kiri alın. İz kalırsa normal araç şampuanı ve yumuşak bir yıkama eldiveni kullanın.',
+    ['Kova', 'Yumuşak yıkama eldiveni', 'Temiz mikrofiber bez'], [water, 'Gerekirse normal araç şampuanı'],
     [
-      ['Yağın nerede olduğunu belirleyin', 'Dış boya, iç döşeme ve motor bölmesi ayrı işlemler ister. Bu adımlar dış boya içindir.'],
-      ['Şampuanı etiketine göre seyreltin', 'Gölgeye alınmış serin paneli temiz suyla durulayarak tozu uzaklaştırın.'],
-      ['Yumuşak eldivenle yıkayın', 'Araç şampuanıyla küçük bir alanı temizleyin, suyla durulayıp mikrofiberle kurulayın.'],
-      ['Kalan izde boya uyumuna bakın', 'Noktasal yağ temizleyicisini ancak otomobil boyası için uygunsa gizli bir alanda test edip kendi talimatıyla kullanın.']
+      ['Kaportanın soğumasını bekleyin', 'Aracı gölgeye alın. Boya sıcakken temizliğe başlamayın. Bu adımlar kaportadaki küçük yağ izleri içindir.'],
+      ['Tozu ve gevşek kiri suyla durulayın', 'Boyayı çizmemek için kuru yüzeyi ovalamayın. Temiz suyla tozu alıp yağın fazlasını yumuşak bezle hafifçe kaldırın.'],
+      ['İz kaldıysa normal araç şampuanıyla yıkayın', 'Varsa araç şampuanını ambalajındaki ölçüyle sulandırın. Temiz, yumuşak bir eldivenle küçük alanı nazikçe yıkayın.'],
+      ['Durulayın ve mikrofiber bezle kurulayın', 'Kalıntıyı suyla giderip boyayı kurulayın. İz çıkmıyorsa sertçe ovalamadan aracın bakım kılavuzuna bakın.']
     ],
-    'Yeni damlalar tekrar oluşuyorsa yağın kaynağını kontrol ettirin.',
-    'Motor yağ çözücüsünü dış boyaya, cilaya veya iç döşemeye genellemeyin.'
+    'Yağ koltuğa bulaştıysa döşemenin malzemesine uygun koltuk rehberine geçin.',
+    'Kaportada bulaşık deterjanı, karbonat veya motor yağ çözücüsü kullanmayın.'
   ),
   'suetten-yag-lekesi': method(
     'Süette kuru nişasta uygulaması',
